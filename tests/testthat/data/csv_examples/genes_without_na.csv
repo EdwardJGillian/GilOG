@@ -1,0 +1,662 @@
+"X","assembly","locus_tag","protein_id","protein","gene_name","strand","location_start","location_end"
+3,"GCF_001436095.1","FC84_RS03080","WP_057755227.1","3-phosphoshikimate 1-carboxyvinyltransferase","aroA","-",196632,197975
+14,"GCF_002406665.1","CPZ14_RS01405","WP_003579470.1","Stk1 family PASTA domain-containing Ser/Thr kinase","pknB","+",247340,249340
+18,"GCF_014228045.1","HCB14_RS01370","WP_185572331.1","aspartate--tRNA ligase","aspS","+",239312,241087
+28,"GCF_014228045.1","HCB14_RS01955","WP_185529941.1","DNA mismatch repair protein MutS","mutS","-",358375,360957
+34,"GCF_001435715.1","FC71_RS08100","WP_011374557.1","rod shape-determining protein MreC","mreC","+",309454,310314
+42,"GCF_008690825.1","FE414_RS06660","WP_150280765.1","primosomal protein DnaI","dnaI","-",79049,79975
+44,"GCF_001436095.1","FC84_RS02730","WP_057755026.1","DNA topoisomerase IV subunit B","parE","+",113440,115461
+57,"GCF_001435715.1","FC71_RS07425","WP_056948370.1","UDP-glucose--hexose-1-phosphate uridylyltransferase","galT","+",192211,193707
+58,"GCF_002406665.1","CPZ14_RS00580","WP_022671579.1","pyruvate oxidase","spxB","+",93090,94844
+59,"GCA_009917315.1","D1835_06495","NBK08653.1","phosphate ABC transporter permease subunit PstC","pstC","+",51314,52246
+65,"GCF_007922695.1","LABALGNA3A7_RS05450","WP_057973466.1","ribosome maturation factor RimM","rimM","+",183940,184455
+70,"GCF_001436095.1","FC84_RS02415","WP_057754844.1","ribonuclease Z","rnz","+",47727,48668
+72,"GCF_002907285.1","BGL45_RS00750","WP_180993890.1","DNA repair protein RecN","recN","-",151706,153403
+80,"GCF_014228045.1","HCB14_RS01615","WP_185572350.1","50S ribosomal protein L11 methyltransferase","prmA","+",288001,288945
+84,"GCF_001436095.1","FC84_RS02495","WP_162257965.1","SMC-Scp complex subunit ScpB","scpB","+",65759,66352
+86,"GCF_001436095.1","FC84_RS03210","WP_057755307.1","peptide-methionine (S)-S-oxide reductase MsrA","msrA","-",223202,223729
+89,"GCF_008690825.1","FE414_RS07490","WP_150280829.1","alanine racemase","alr","-",229006,230133
+90,"GCF_001436095.1","FC84_RS03270","WP_057755346.1","asparagine synthase (glutamine-hydrolyzing)","asnB","-",235723,237627
+94,"GCF_014228045.1","HCB14_RS01220","WP_185572323.1","DNA repair protein RadC","radC","+",208029,208703
+95,"GCF_014228045.1","HCB14_RS01110","WP_008947937.1","6-phosphofructokinase","pfkA","+",180775,181734
+103,"GCF_014228045.1","HCB14_RS01640","WP_185502245.1","cyclic-di-AMP phosphodiesterase PgpH","pgpH","+",291713,293869
+105,"GCF_002907285.1","BGL45_RS00865","WP_014081921.1","transcription elongation factor GreA","greA","-",167757,168230
+106,"GCF_002907285.1","BGL45_RS00150","WP_014082048.1","GTPase Era","era","+",24120,25031
+109,"GCF_002406665.1","CPZ14_RS00745","WP_003605364.1","phosphoribosylformylglycinamidine synthase subunit PurL","purL","+",122665,124881
+112,"GCF_008690825.1","FE414_RS07320","WP_150280814.1","Flp pilus assembly complex ATPase component TadA","tadA","-",195810,196766
+116,"GCF_002907285.1","BGL45_RS01035","WP_103467797.1","tRNA (guanosine(46)-N7)-methyltransferase TrmB","trmB","-",198576,199217
+118,"GCF_001436805.1","IV38_RS08735","WP_057770910.1","phosphate acetyltransferase","pta","+",8119,9099
+121,"GCF_014228045.1","HCB14_RS02100","WP_003722501.1","stressosome-associated protein Prli42","prli42","+",391609,391704
+128,"GCF_002907285.1","BGL45_RS00665","WP_103467766.1","signal recognition particle-docking protein FtsY","ftsY","-",131504,132562
+138,"GCF_002907285.1","BGL45_RS00630","WP_056957582.1","50S ribosomal protein L19","rplS","-",127271,127630
+141,"GCF_001435715.1","FC71_RS07960","WP_016265006.1","enoyl-ACP reductase FabI","fabI","+",280737,281486
+142,"GCF_002406665.1","CPZ14_RS00960","WP_003605332.1","DNA polymerase I","polA","+",166581,169226
+148,"GCF_014228045.1","HCB14_RS02300","WP_003719608.1","50S ribosomal protein L33","rpmG","-",427222,427371
+156,"GCF_002907285.1","BGL45_RS00790","WP_103467775.1","elongation factor P","efp","-",158614,159186
+158,"GCF_007922695.1","LABALGNA3A7_RS05300","WP_146302778.1","DNA repair protein RecN","recN","+",152143,153822
+163,"GCF_001435715.1","FC71_RS07035","WP_011374396.1","bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC","coaBC","+",114835,116052
+171,"GCF_001436095.1","FC84_RS02405","WP_057754838.1","GTPase ObgE","obgE","+",44382,45674
+177,"GCF_002907285.1","BGL45_RS00680","WP_103467768.1","phosphate acyltransferase PlsX","plsX","-",136909,137925
+181,"GCF_014228045.1","HCB14_RS01310","WP_008947901.1","tRNA preQ1(34) S-adenosylmethionine ribosyltransferase-isomerase QueA","queA","+",224556,225584
+186,"GCF_001436095.1","FC84_RS03160","WP_057755269.1","GTPase Era","era","-",215798,216700
+187,"GCF_007922695.1","LABALGNA3A7_RS04635","WP_057973364.1","tRNA (guanosine(46)-N7)-methyltransferase TrmB","trmB","+",46726,47385
+189,"GCF_002406665.1","CPZ14_RS01450","WP_003584588.1","phosphate acyltransferase PlsX","plsX","+",256861,257886
+193,"GCF_008690825.1","FE414_RS06850","WP_150280785.1","methionine--tRNA ligase","metG","-",112883,114994
+194,"GCF_002907285.1","BGL45_RS00545","WP_103467751.1","thiol reductant ABC exporter subunit CydD","cydD","+",107343,109085
+198,"GCF_014228045.1","HCB14_RS02965","WP_185572517.1","phage recombination protein Bet","bet","-",547390,548127
+214,"GCF_001436805.1","IV38_RS08760","WP_057770900.1","exodeoxyribonuclease III","xth","-",11810,12571
+216,"GCF_001435715.1","FC71_RS07040","WP_056948332.1","primosomal protein N'","priA","+",116054,118471
+218,"GCF_001436805.1","IV38_RS08840","WP_057770869.1","glutamate/gamma-aminobutyrate family transporter YjeM","yjeM","+",28582,30099
+223,"GCF_002907285.1","BGL45_RS01260","WP_103423297.1","phosphoribosylformylglycinamidine synthase subunit PurQ","purQ","-",246172,246822
+226,"GCF_014228045.1","HCB14_RS01130","WP_185502298.1","citrate synthase","citZ","+",184925,186046
+237,"GCF_014228045.1","HCB14_RS02490","WP_185572415.1","GTPase HflX","hflX","-",465280,466503
+239,"GCF_002406665.1","CPZ14_RS01065","WP_003565850.1","ribosome assembly RNA-binding protein YhbY","yhbY","+",185807,186118
+242,"GCF_014228045.1","HCB14_RS01275","WP_008947908.1","glycerol kinase GlpK","glpK","+",217101,218594
+243,"GCF_014228045.1","HCB14_RS01340","WP_185529914.1","single-stranded-DNA-specific exonuclease RecJ","recJ","+",230510,232861
+249,"GCF_014228045.1","HCB14_RS00870","WP_185506985.1","dipeptidase PepV","pepV","+",129404,130816
+255,"GCF_001436095.1","FC84_RS02430","WP_057754852.1","50S ribosomal protein L32","rpmF","+",50059,50247
+262,"GCF_001435715.1","FC71_RS07010","WP_056948329.1","DNA repair protein RecN","recN","+",111368,113071
+273,"GCF_014228045.1","HCB14_RS02630","WP_185572427.1","type I signal peptidase SipY","sipY","-",500368,500937
+274,"GCF_001436095.1","FC84_RS03390","WP_057755461.1","heat-inducible transcriptional repressor HrcA","hrcA","-",256658,257737
+280,"GCF_001435715.1","FC71_RS06655","WP_011374316.1","phosphopyruvate hydratase","eno","+",41550,42845
+286,"GCF_008690825.1","FE414_RS06845","WP_014974820.1","type I glyceraldehyde-3-phosphate dehydrogenase","gap","-",111481,112500
+290,"GCF_002406665.1","CPZ14_RS01645","WP_003605248.1","transcription termination/antitermination protein NusA","nusA","+",297800,299053
+293,"GCF_001436095.1","FC84_RS03530","WP_057755581.1","ribose-5-phosphate isomerase RpiA","rpiA","+",288478,289164
+303,"GCF_001436095.1","FC84_RS04360","WP_057755996.1","phosphate acetyltransferase","pta","-",417294,418277
+304,"GCF_008690825.1","FE414_RS06325","WP_135197691.1","ribonuclease Y","rny","-",5826,7382
+305,"GCF_002406665.1","CPZ14_RS01510","WP_003564751.1","signal recognition particle protein","ffh","+",271106,272542
+306,"GCF_002907285.1","BGL45_RS00745","WP_103467773.1","guanylate kinase","gmk","-",151001,151618
+310,"GCF_001436095.1","FC84_RS02955","WP_057755160.1","mevalonate kinase","mvk","+",175290,176258
+326,"GCF_001436095.1","FC84_RS02910","WP_057755136.1","Holliday junction resolvase RecU","recU","+",159526,160173
+331,"GCF_001436095.1","FC84_RS04335","WP_083479528.1","UDP-N-acetylmuramate dehydrogenase","murB","-",413670,414584
+341,"GCF_001435715.1","FC71_RS06925","WP_056948317.1","phosphoribosylamine--glycine ligase","purD","+",99558,100808
+342,"GCF_014228045.1","HCB14_RS01305","WP_185391443.1","Holliday junction branch migration DNA helicase RuvB","ruvB","+",223545,224552
+344,"GCA_009917315.1","D1835_06770","NBK08708.1","glycine--tRNA ligase subunit alpha","glyQ","+",106125,107012
+346,"GCF_001436095.1","FC84_RS02705","WP_057755010.1","tyrosine recombinase XerC","xerC","+",108747,109673
+349,"GCF_007922695.1","LABALGNA3A7_RS05130","WP_057973409.1","50S ribosomal protein L33","rpmG","+",126966,127115
+352,"GCF_002907285.1","BGL45_RS00225","WP_056957782.1","SMC-Scp complex subunit ScpB","scpB","+",42341,42916
+362,"GCF_014228045.1","HCB14_RS01660","WP_008947838.1","GTPase Era","era","+",295162,296067
+364,"GCF_001435715.1","FC71_RS07065","WP_025015866.1","ribosome small subunit-dependent GTPase A","rsgA","+",123513,124427
+366,"GCF_014228045.1","HCB14_RS01950","WP_185502211.1","DNA mismatch repair endonuclease MutL","mutL","-",356542,358353
+367,"GCF_007991575.1","PET01_RS03425","WP_057782372.1","cell division regulator GpsB","gpsB","+",13611,13952
+368,"GCF_007991575.1","PET01_RS03400","WP_057805662.1","asparagine--tRNA ligase","asnS","+",7825,9126
+372,"GCF_001435715.1","FC71_RS07515","WP_011374491.1","nickel-dependent lactate racemase","larA","+",208207,209481
+374,"GCF_014228045.1","HCB14_RS02120","WP_185572393.1","dihydrolipoyl dehydrogenase","lpdA","-",395160,396587
+377,"GCF_001435715.1","FC71_RS07320","WP_056948362.1","cell division protein FtsL","ftsL","+",168938,169318
+384,"GCF_007922695.1","LABALGNA3A7_RS05025","WP_057973388.1","ribosome silencing factor","rsfS","+",104368,104724
+389,"GCF_014228045.1","HCB14_RS01410","WP_185572337.1","tRNA 2-thiouridine(34) synthase MnmA","mnmA","+",246892,248007
+392,"GCF_014228045.1","HCB14_RS01460","WP_003730148.1","Holliday junction resolvase RuvX","ruvX","+",259807,260223
+393,"GCF_014228045.1","HCB14_RS00830","WP_185506980.1","tryptophan synthase subunit beta","trpB","+",121391,122593
+404,"GCF_014228045.1","HCB14_RS01735","WP_185517525.1","zinc ABC transporter ATP-binding protein ZurA","zurA","+",311873,312646
+409,"GCF_014228045.1","HCB14_RS01935","WP_008947784.1","pyruvate formate lyase-activating protein","pflA","-",352497,353243
+410,"GCF_002406665.1","CPZ14_RS01700","WP_003565747.1","molecular chaperone DnaK","dnaK","+",309046,310920
+413,"GCF_002907285.1","BGL45_RS00670","WP_103467767.1","chromosome segregation protein SMC","smc","-",132565,136095
+419,"GCF_001435715.1","FC71_RS08065","WP_056948503.1","tRNA 4-thiouridine(8) synthase ThiI","thiI","+",300365,301582
+424,"GCF_002406665.1","CPZ14_RS00925","WP_003565908.1","tRNA (guanosine(46)-N7)-methyltransferase TrmB","trmB","+",159288,159932
+428,"GCF_001436095.1","FC84_RS04225","WP_057755924.1","Flp pilus assembly complex ATPase component TadA","tadA","+",393960,394940
+430,"GCF_014228045.1","HCB14_RS01235","WP_008947913.1","rod shape-determining protein MreD","mreD","+",211144,211662
+441,"GCF_001435715.1","FC71_RS07140","WP_056948346.1","chromosome segregation protein SMC","smc","+",139930,143490
+442,"GCF_001435715.1","FC71_RS06870","WP_056948302.1","5-(carboxyamino)imidazole ribonucleotide mutase","purE","+",88084,88569
+443,"GCF_008690825.1","FE414_RS07330","WP_014974865.1","glucosamine-6-phosphate deaminase","nagB","-",198340,199041
+445,"GCF_014228045.1","HCB14_RS01525","WP_185391409.1","ribosome assembly RNA-binding protein YhbY","yhbY","+",270420,270710
+446,"GCF_002907285.1","BGL45_RS00960","WP_014081902.1","50S ribosomal protein L20","rplT","-",182911,183264
+447,"GCF_014228045.1","HCB14_RS01485","WP_003747779.1","uridine kinase","udk","+",263214,263843
+449,"GCF_007922695.1","LABALGNA3A7_RS04705","WP_146342769.1","threonine--tRNA ligase","thrS","+",62088,64034
+451,"GCF_008690825.1","FE414_RS07375","WP_135197815.1","16S rRNA (guanine(527)-N(7))-methyltransferase RsmG","rsmG","-",206076,206795
+453,"GCA_009917315.1","D1835_06485","NBK08651.1","cardiolipin synthase","cls","+",48446,49894
+468,"GCF_014228045.1","HCB14_RS01795","WP_008947813.1","4-hydroxy-tetrahydrodipicolinate synthase","dapA","+",323778,324659
+477,"GCF_001435715.1","FC71_RS07145","WP_056948348.1","signal recognition particle-docking protein FtsY","ftsY","+",143501,144895
+482,"GCF_014228045.1","HCB14_RS02230","WP_008947727.1","aminomethyl-transferring glycine dehydrogenase subunit GcvPA","gcvPA","-",415731,417077
+488,"GCF_002406665.1","CPZ14_RS01735","WP_003605230.1","single-stranded-DNA-specific exonuclease RecJ","recJ","+",315989,318283
+489,"GCF_001436095.1","FC84_RS03415","WP_057755475.1","translation initiation factor IF-2","infB","-",261838,264648
+495,"GCF_007991575.1","PET01_RS03385","WP_057805666.1","mevalonate kinase","mvk","-",3140,4102
+499,"GCF_014228045.1","HCB14_RS02365","WP_008947703.1","transcription termination/antitermination protein NusA","nusA","-",438113,439231
+506,"GCF_014228045.1","HCB14_RS02235","WP_185506805.1","glycine cleavage system aminomethyltransferase GcvT","gcvT","-",417093,418181
+508,"GCF_002406665.1","CPZ14_RS01165","WP_003575382.1","uridine kinase","udk","+",204377,205015
+511,"GCF_002907285.1","BGL45_RS00965","WP_014081901.1","50S ribosomal protein L35","rpmI","-",183288,183482
+515,"GCF_001436095.1","FC84_RS02265","WP_057754757.1","recombination protein RecR","recR","+",16265,16861
+518,"GCF_001436095.1","FC84_RS08840","WP_083479506.1","type II-A CRISPR-associated protein Csn2","csn2","-",150281,150640
+522,"GCF_002907285.1","BGL45_RS00155","WP_014082047.1","DNA repair protein RecO","recO","+",25048,25818
+529,"GCF_014228045.1","HCB14_RS02545","WP_185517626.1","DNA topoisomerase IV subunit A","parC","-",481846,484305
+533,"GCF_014228045.1","HCB14_RS01540","WP_185391406.1","ribosome silencing factor","rsfS","+",271862,272218
+538,"GCF_008690825.1","FE414_RS06805","WP_150280783.1","3-oxoacyl-ACP reductase FabG","fabG","-",105401,106132
+541,"GCF_002406665.1","CPZ14_RS00735","WP_003565984.1","phosphoribosylformylglycinamidine synthase subunit PurS","purS","+",121735,121995
+543,"GCF_008690825.1","FE414_RS06785","WP_150280781.1","acetyl-CoA carboxylase biotin carboxylase subunit","accC","-",101814,103190
+550,"GCF_001436095.1","FC84_RS02370","WP_057754816.1","excinuclease ABC subunit UvrC","uvrC","+",35623,37407
+553,"GCF_001435715.1","FC71_RS08150","WP_056948509.1","aspartate--tRNA ligase","aspS","+",319396,321168
+555,"GCF_001436095.1","FC84_RS03155","WP_057755266.1","DNA repair protein RecO","recO","-",214995,215795
+564,"GCF_002907285.1","BGL45_RS00455","WP_103467741.1","bifunctional pyr operon transcriptional regulator/uracil phosphoribosyltransferase PyrR","pyrR","-",91861,92394
+572,"GCF_001436095.1","FC84_RS03620","WP_057755613.1","PTS mannose transporter subunit IIAB","manX","-",305174,306145
+578,"GCF_001436805.1","IV38_RS08690","WP_057770927.1","Fe-S cluster assembly protein SufB","sufB","-",80,1480
+579,"GCF_001435715.1","FC71_RS06855","WP_035146559.1","glycerol kinase GlpK","glpK","+",83764,85281
+585,"GCF_002406665.1","CPZ14_RS00450","WP_096772565.1","pyrroline-5-carboxylate reductase","proC","+",67745,68542
+597,"GCF_002907285.1","BGL45_RS00685","WP_103467769.1","ATP-dependent DNA helicase RecG","recG","-",137941,139971
+598,"GCF_007922695.1","LABALGNA3A7_RS05400","WP_146342870.1","ATP-dependent DNA helicase RecG","recG","+",172468,174501
+608,"GCA_009917315.1","D1835_06580","NBK08670.1","alpha,alpha-phosphotrehalase","treC","+",67934,69556
+614,"GCF_007922695.1","LABALGNA3A7_RS05045","WP_057973392.1","50S ribosomal protein L32","rpmF","+",107303,107482
+620,"GCF_007991575.1","PET01_RS03465","WP_177159930.1","bifunctional pyr operon transcriptional regulator/uracil phosphoribosyltransferase PyrR","pyrR","+",20274,20795
+621,"GCF_001436095.1","FC84_RS02245","WP_057754745.1","carbamoyl-phosphate synthase large subunit","carB","+",9802,12978
+629,"GCF_014228045.1","HCB14_RS03045","WP_008947633.1","glutamate 5-kinase","proB","+",557673,558494
+642,"GCF_014228045.1","HCB14_RS02315","WP_185503596.1","ribosome small subunit-dependent GTPase A","rsgA","+",428594,429634
+647,"GCF_001436095.1","FC84_RS03435","WP_057755491.1","ribosome maturation factor RimP","rimP","-",266445,266918
+649,"GCF_001435715.1","FC71_RS07315","WP_016264907.1","16S rRNA (cytosine(1402)-N(4))-methyltransferase RsmH","rsmH","+",167976,168932
+653,"GCF_002406665.1","CPZ14_RS00985","WP_003570519.1","primosomal protein DnaI","dnaI","+",172632,173567
+654,"GCF_014228045.1","HCB14_RS01195","WP_185572315.1","porphobilinogen synthase","hemB","+",200491,201465
+661,"GCF_002907285.1","BGL45_RS00730","WP_103467772.1","primosomal protein N'","priA","-",147091,149496
+662,"GCF_014228045.1","HCB14_RS01020","WP_185532832.1","acetylglutamate kinase","argB","+",160437,161189
+665,"GCF_001436095.1","FC84_RS02925","WP_057755143.1","endonuclease III","nth","-",162972,163619
+672,"GCF_002907285.1","BGL45_RS00855","WP_014081923.1","50S ribosomal protein L33","rpmG","-",165265,165414
+675,"GCF_001436095.1","FC84_RS04355","WP_057755995.1","tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex ATPase subunit type 1 TsaE","tsaE","-",416798,417265
+676,"GCF_014228045.1","HCB14_RS02335","WP_185572411.1","tRNA pseudouridine(55) synthase TruB","truB","-",433505,434419
+678,"GCF_008690825.1","FE414_RS06790","WP_014974809.1","3-hydroxyacyl-ACP dehydratase FabZ","fabZ","-",103193,103624
+686,"GCF_001435715.1","FC71_RS06875","WP_056948303.1","5-(carboxyamino)imidazole ribonucleotide synthase","purK","+",88553,89704
+691,"GCF_001436095.1","FC84_RS03490","WP_057755554.1","23S rRNA (guanosine(2251)-2'-O)-methyltransferase RlmB","rlmB","-",280289,281203
+694,"GCF_014228045.1","HCB14_RS01825","WP_008947807.1","energy-coupled thiamine transporter ThiT","thiT","+",330891,331451
+696,"GCF_001436095.1","FC84_RS03905","WP_057755753.1","class II fructose-1,6-bisphosphate aldolase","fba","-",347665,348546
+697,"GCF_014228045.1","HCB14_RS01670","WP_008947836.1","DNA repair protein RecO","recO","+",296882,297649
+700,"GCF_001435715.1","FC71_RS06860","WP_011374359.1","type 1 glycerol-3-phosphate oxidase","glpO","+",85293,87119
+704,"GCF_001436095.1","FC84_RS02715","WP_057755014.1","ATP-dependent protease ATPase subunit HslU","hslU","+",110225,111634
+706,"GCF_002406665.1","CPZ14_RS01690","WP_003565751.1","heat-inducible transcriptional repressor HrcA","hrcA","+",307203,308249
+707,"GCF_001435715.1","FC71_RS08135","WP_025015815.1","cardiolipin synthase","cls","+",314890,316326
+735,"GCF_014228045.1","HCB14_RS01300","WP_008947903.1","Holliday junction branch migration protein RuvA","ruvA","+",222924,223529
+744,"GCF_014228045.1","HCB14_RS00985","WP_003723325.1","30S ribosomal protein S4","rpsD","-",152222,152824
+748,"GCF_001435715.1","FC71_RS07185","WP_056948352.1","ribosome maturation factor RimM","rimM","+",151163,151693
+755,"GCF_002406665.1","CPZ14_RS00645","WP_096772572.1","recombination regulator RecX","recX","+",104246,105040
+765,"GCF_008690825.1","FE414_RS06600","WP_150280757.1","oligoendopeptidase F","pepF","-",67059,68846
+771,"GCF_001742285.1","BCR26_RS09400","WP_069698726.1","glucosamine-6-phosphate deaminase","nagB","+",173836,174537
+783,"GCF_014228045.1","HCB14_RS03075","WP_185572541.1","alpha,alpha-phosphotrehalase","treC","+",563439,565085
+786,"GCF_001436095.1","FC84_RS02710","WP_057755012.1","ATP-dependent protease subunit HslV","hslV","+",109687,110211
+787,"GCF_001435715.1","FC71_RS07935","WP_011374524.1","acetyl-CoA carboxylase biotin carboxyl carrier protein","accB","+",276832,277287
+796,"GCF_002406665.1","CPZ14_RS01490","WP_003605265.1","chromosome segregation protein SMC","smc","+",265414,268968
+800,"GCF_014228045.1","HCB14_RS00240","WP_185572551.1","phage terminase large subunit","terL","+",33641,35323
+806,"GCF_001435715.1","FC71_RS07905","WP_011374518.1","3-hydroxyacyl-ACP dehydratase FabZ","fabZ","+",272040,272495
+812,"GCF_014228045.1","HCB14_RS02640","WP_185502128.1","ATP-dependent protease ATP-binding subunit ClpX","clpX","-",501657,502916
+815,"GCA_009917315.1","D1835_06365","NBK08629.1","membrane protein insertion efficiency factor YidD","yidD","+",24888,25187
+826,"GCF_001436095.1","FC84_RS02740","WP_057755031.1","formate C-acetyltransferase","pflB","+",118348,120609
+829,"GCA_009917315.1","D1835_06515","NBK08657.1","phosphate transport system regulatory protein PhoU","phoU","+",55085,55762
+831,"GCF_001436095.1","FC84_RS03400","WP_057755468.1","riboflavin biosynthesis protein RibF","ribF","-",259461,260402
+833,"GCF_002406665.1","CPZ14_RS01595","WP_003565810.1","30S ribosomal protein S2","rpsB","+",284265,285053
+834,"GCF_007922695.1","LABALGNA3A7_RS04780","WP_146342781.1","single-stranded DNA-binding protein","ssb","+",70998,71540
+836,"GCF_007922695.1","LABALGNA3A7_RS05105","WP_146342836.1","endolytic transglycosylase MltG","mltG","+",119360,120496
+838,"GCF_014228045.1","HCB14_RS03080","WP_008947626.1","trehalose operon repressor","treR","-",565117,565830
+843,"GCF_014228045.1","HCB14_RS02580","WP_003726695.1","GTP-sensing pleiotropic transcriptional regulator CodY","codY","-",489386,490165
+851,"GCF_007991575.1","PET01_RS03800","WP_057805528.1","tyrosine recombinase XerC","xerC","-",83736,84644
+852,"GCF_002907285.1","BGL45_RS00650","WP_014081963.1","30S ribosomal protein S16","rpsP","-",129328,129606
+854,"GCF_007991575.1","PET01_RS03415","WP_057805659.1","Holliday junction resolvase RecU","recU","-",12251,12886
+868,"GCF_007922695.1","LABALGNA3A7_RS04680","WP_146342765.1","DNA-formamidopyrimidine glycosylase","mutM","+",57457,58290
+869,"GCF_014228045.1","HCB14_RS01140","WP_185572305.1","DNA polymerase I","polA","+",187494,190121
+874,"GCF_014228045.1","HCB14_RS01095","WP_185572301.1","DNA polymerase III subunit alpha","dnaE","+",175117,178443
+876,"GCF_001436095.1","FC84_RS03165","WP_057755272.1","cytidine deaminase","cdd","-",216697,217092
+882,"GCF_014228045.1","HCB14_RS02200","WP_008947734.1","elongation factor P","efp","-",410631,411188
+883,"GCF_001436095.1","FC84_RS03095","WP_057755238.1","3-deoxy-7-phosphoheptulonate synthase","aroF","-",200237,201235
+885,"GCF_002907285.1","BGL45_RS00880","WP_103467780.1","phenylalanine--tRNA ligase subunit alpha","pheS","-",171408,172445
+889,"GCF_014228045.1","HCB14_RS01490","WP_003722004.1","transcription elongation factor GreA","greA","+",264036,264518
+891,"GCF_014228045.1","HCB14_RS01050","WP_008947950.1","thiol peroxidase","tpx","+",165941,166438
+903,"GCF_014228045.1","HCB14_RS00200","WP_185557460.1","asparagine synthase (glutamine-hydrolyzing)","asnB","+",22635,24500
+913,"GCA_009917315.1","D1835_06455","NBK08645.1","preprotein translocase subunit SecA","secA","+",41817,44348
+916,"GCF_014228045.1","HCB14_RS01600","WP_008947848.1","nucleotide exchange factor GrpE","grpE","+",284205,284780
+920,"GCF_001436095.1","FC84_RS03085","WP_057755232.1","chorismate synthase","aroC","-",197968,199170
+921,"GCF_002907285.1","BGL45_RS00930","WP_014081908.1","ribosome silencing factor","rsfS","-",179266,179625
+931,"GCF_001435715.1","FC71_RS07170","WP_016264889.1","signal recognition particle protein","ffh","+",149041,150477
+934,"GCF_007922695.1","LABALGNA3A7_RS05005","WP_146342824.1","ribosome biogenesis GTPase YqeH","yqeH","+",101629,102765
+942,"GCF_002907285.1","BGL45_RS00635","WP_103467763.1","tRNA (guanosine(37)-N1)-methyltransferase TrmD","trmD","-",127729,128493
+950,"GCF_014228045.1","HCB14_RS02320","WP_185532717.1","polyribonucleotide nucleotidyltransferase","pnp","-",429675,431846
+953,"GCF_001436095.1","FC84_RS02480","WP_057754879.1","site-specific tyrosine recombinase XerD","xerD","+",63697,64584
+961,"GCF_007922695.1","LABALGNA3A7_RS05165","WP_146342842.1","tRNA (adenosine(37)-N6)-dimethylallyltransferase MiaA","miaA","+",130637,131560
+962,"GCF_001436095.1","FC84_RS03550","WP_057755591.1","pyruvate oxidase","spxB","+",293388,295124
+963,"GCF_014228045.1","HCB14_RS02225","WP_185502183.1","aminomethyl-transferring glycine dehydrogenase subunit GcvPB","gcvPB","-",414268,415734
+965,"GCF_002406665.1","CPZ14_RS00765","WP_003605355.1","bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/IMP cyclohydrolase","purH","+",127885,129408
+966,"GCF_001742285.1","BCR26_RS09260","WP_069698700.1","transcription elongation factor GreA","greA","+",146913,147386
+981,"GCF_002406665.1","CPZ14_RS01710","WP_003565745.1","molecular chaperone DnaJ","dnaJ","+",311033,312196
+986,"GCF_002406665.1","CPZ14_RS00605","WP_003566041.1","PTS cellobiose transporter subunit IIC","celB","+",96348,97712
+995,"GCF_014228045.1","HCB14_RS02590","WP_003724001.1","ATP-dependent protease subunit HslV","hslV","-",491609,492148
+996,"GCF_007991575.1","PET01_RS03820","WP_057805520.1","ribosome biogenesis GTPase YlqF","ylqF","-",88559,89428
+1001,"GCF_002406665.1","CPZ14_RS01170","WP_003564597.1","transcription elongation factor GreA","greA","+",205082,205552
+1008,"GCF_014228045.1","HCB14_RS01120","WP_008947935.1","membrane protein FxsA","fxsA","+",183893,184270
+1010,"GCF_002907285.1","BGL45_RS01220","WP_056957653.1","adenylosuccinate lyase","purB","-",235002,236297
+1011,"GCF_001435715.1","FC71_RS07575","WP_056948390.1","purine-nucleoside phosphorylase","deoD","+",218571,219275
+1013,"GCF_001435715.1","FC71_RS07275","WP_011374441.1","50S ribosomal protein L11 methyltransferase","prmA","+",161174,162076
+1016,"GCF_002406665.1","CPZ14_RS01320","WP_003564670.1","bifunctional methylenetetrahydrofolate dehydrogenase/methenyltetrahydrofolate cyclohydrolase FolD","folD","+",231703,232554
+1029,"GCF_014228045.1","HCB14_RS01115","WP_185502299.1","pyruvate kinase","pyk","+",182017,183774
+1031,"GCF_002907285.1","BGL45_RS00380","WP_014082010.1","DNA topoisomerase IV subunit A","parC","+",76328,78793
+1043,"GCF_001436095.1","FC84_RS04070","WP_057755816.1","phage terminase large subunit","terL","-",374044,375417
+1045,"GCF_002907285.1","BGL45_RS00195","WP_103467717.1","DNA polymerase III subunit alpha","dnaE","+",34185,37511
+1050,"GCF_002406665.1","CPZ14_RS01060","WP_003605323.1","ribosome biogenesis GTPase YqeH","yqeH","+",184543,185667
+1058,"GCF_007922695.1","LABALGNA3A7_RS05410","WP_057973459.1","acyl carrier protein","acpP","+",175597,175839
+1068,"GCF_001435715.1","FC71_RS08115","WP_016265029.1","septum site-determining protein MinD","minD","+",311536,312330
+1076,"GCF_001435715.1","FC71_RS08295","WP_011374596.1","3-dehydroquinate synthase","aroB","+",347452,348519
+1077,"GCF_002406665.1","CPZ14_RS01290","WP_003564659.1","50S ribosomal protein L27","rpmA","+",228192,228482
+1080,"GCA_009917315.1","D1835_06730","NBK08700.1","histidinol dehydrogenase","hisD","+",98717,100039
+1081,"GCF_001742285.1","BCR26_RS08815","WP_069698614.1","chromosome segregation protein SMC","smc","+",43593,47174
+1085,"GCF_001435715.1","FC71_RS07560","WP_076631886.1","tRNA 2-thiouridine(34) synthase MnmA","mnmA","+",215400,216539
+1091,"GCF_014228045.1","HCB14_RS00815","WP_185572271.1","anthranilate phosphoribosyltransferase","trpD","+",119009,120028
+1093,"GCF_007922695.1","LABALGNA3A7_RS05265","WP_057973430.1","transcription antitermination factor NusB","nusB","+",146856,147302
+1100,"GCF_001436095.1","FC84_RS03325","WP_057755424.1","single-stranded-DNA-specific exonuclease RecJ","recJ","-",243016,245397
+1109,"GCF_014228045.1","HCB14_RS01745","WP_003721950.1","transcriptional regulator ZurR","zurR","+",313480,313905
+1114,"GCF_001436095.1","FC84_RS02315","WP_083479499.1","tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex transferase subunit TsaD","tsaD","+",23084,24175
+1124,"GCF_001436095.1","FC84_RS02460","WP_057754870.1","6-phosphofructokinase","pfkA","+",59244,60209
+1130,"GCF_001436095.1","FC84_RS02395","WP_057754832.1","1-phosphofructokinase","pfkB","-",42390,43304
+1137,"GCF_001435715.1","FC71_RS07255","WP_011374436.1","Cys-tRNA(Pro) deacylase","ybaK","-",158683,159189
+1142,"GCF_014228045.1","HCB14_RS02190","WP_008947736.1","acetyl-CoA carboxylase biotin carboxylase subunit","accC","-",408621,409985
+1155,"GCF_014228045.1","HCB14_RS02620","WP_008947650.1","ribosome biogenesis GTPase YlqF","ylqF","-",498847,499713
+1164,"GCF_007991575.1","PET01_RS03500","WP_057805639.1","peptide-methionine (R)-S-oxide reductase MsrB","msrB","-",30591,31022
+1168,"GCF_014228045.1","HCB14_RS02195","WP_185502187.1","acetyl-CoA carboxylase biotin carboxyl carrier protein","accB","-",409999,410472
+1169,"GCF_001435715.1","FC71_RS07710","WP_056948426.1","single-stranded DNA-binding protein","ssb","+",240790,241233
+1174,"GCF_002406665.1","CPZ14_RS01160","WP_003564593.1","endolytic transglycosylase MltG","mltG","+",203124,204275
+1177,"GCF_014228045.1","HCB14_RS02635","WP_185506782.1","type I signal peptidase SipX","sipX","-",500972,501538
+1181,"GCF_001435715.1","FC71_RS08035","WP_056948497.1","bifunctional glutamate--cysteine ligase GshA/glutathione synthetase GshB","gshAB","+",292793,295072
+1182,"GCF_002907285.1","BGL45_RS00360","WP_103467734.1","tyrosine recombinase XerC","xerC","+",71625,72557
+1188,"GCF_001435715.1","FC71_RS07520","WP_011374492.1","nickel pincer cofactor biosynthesis protein LarB","larB","+",209493,210275
+1196,"GCF_014228045.1","HCB14_RS02350","WP_185506798.1","translation initiation factor IF-2","infB","-",435151,437499
+1203,"GCF_001435715.1","FC71_RS07190","WP_056948354.1","tRNA (guanosine(37)-N1)-methyltransferase TrmD","trmD","+",151683,152423
+1208,"GCF_002907285.1","BGL45_RS01000","WP_103467791.1","DNA-formamidopyrimidine glycosylase","mutM","-",189776,190618
+1211,"GCF_014228045.1","HCB14_RS01255","WP_003726868.1","50S ribosomal protein L21","rplU","+",214893,215201
+1212,"GCF_007922695.1","LABALGNA3A7_RS05460","WP_057973468.1","50S ribosomal protein L19","rplS","+",185319,185666
+1215,"GCA_009917315.1","D1835_06625","NBK08679.1","glutamate 5-kinase","proB","-",78883,79692
+1232,"GCA_009917315.1","D1835_06740","NBK08702.1","imidazoleglycerol-phosphate dehydratase HisB","hisB","+",101153,101746
+1247,"GCF_002406665.1","CPZ14_RS01150","WP_003564587.1","phenylalanine--tRNA ligase subunit alpha","pheS","+",199450,200496
+1249,"GCF_007991575.1","PET01_RS03515","WP_057805673.1","DNA topoisomerase IV subunit A","parC","-",33314,35719
+1254,"GCF_002406665.1","CPZ14_RS00725","WP_003576022.1","5-(carboxyamino)imidazole ribonucleotide synthase","purK","+",119905,121020
+1257,"GCF_001435715.1","FC71_RS06980","WP_162256146.1","bifunctional methylenetetrahydrofolate dehydrogenase/methenyltetrahydrofolate cyclohydrolase FolD","folD","+",106647,107501
+1267,"GCF_007922695.1","LABALGNA3A7_RS05180","WP_057973417.1","type I glutamate--ammonia ligase","glnA","+",133351,134694
+1275,"GCF_014228045.1","HCB14_RS02340","WP_003719600.1","30S ribosome-binding factor RbfA","rbfA","-",434516,434860
+1277,"GCF_008690825.1","FE414_RS06445","WP_014974740.1","excinuclease ABC subunit UvrA","uvrA","-",27760,30624
+1278,"GCF_014228045.1","HCB14_RS01475","WP_185506849.1","endolytic transglycosylase MltG","mltG","+",261416,262486
+1282,"GCF_002406665.1","CPZ14_RS01370","WP_003564691.1","guanylate kinase","gmk","+",239530,240156
+1288,"GCF_002907285.1","BGL45_RS00210","WP_103467719.1","site-specific tyrosine recombinase XerD","xerD","+",40371,41258
+1301,"GCF_001435715.1","FC71_RS07420","WP_056948368.1","UDP-glucose 4-epimerase GalE","galE","+",191208,192200
+1314,"GCF_002907285.1","BGL45_RS00655","WP_103467765.1","signal recognition particle protein","ffh","-",129691,131130
+1324,"GCF_001742285.1","BCR26_RS08825","WP_069698616.1","signal recognition particle-docking protein FtsY","ftsY","+",48353,49594
+1325,"GCF_001435715.1","FC71_RS08245","WP_011374586.1","RNA polymerase sigma factor RpoD","rpoD","+",338171,339280
+1333,"GCF_002406665.1","CPZ14_RS01525","WP_003564760.1","ribosome maturation factor RimM","rimM","+",273377,273895
+1337,"GCA_009917315.1","D1835_06305","NBK08617.1","SsrA-binding protein SmpB","smpB","+",15471,15935
+1338,"GCF_014228045.1","HCB14_RS02325","WP_003719603.1","30S ribosomal protein S15","rpsO","-",432083,432352
+1352,"GCF_014228045.1","HCB14_RS01870","WP_008947798.1","UDP-N-acetylmuramate dehydrogenase","murB","+",340375,341271
+1353,"GCF_008690825.1","FE414_RS06335","WP_150280738.1","ribonuclease R","rnr","-",7989,10313
+1355,"GCF_002907285.1","BGL45_RS01005","WP_103467792.1","DNA polymerase I","polA","-",190637,193336
+1356,"GCA_009917315.1","D1835_06460","NBK08646.1","peptide chain release factor 2","prfB","+",44535,44606
+1361,"GCF_014228045.1","HCB14_RS00145","WP_185572096.1","2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase","menD","+",12586,14328
+1364,"GCF_002406665.1","CPZ14_RS00715","WP_003576020.1","energy-coupled thiamine transporter ThiT","thiT","+",118532,119137
+1366,"GCA_009917315.1","D1835_06720","NBK08698.1","DNA repair protein RecO","recO","+",96111,96890
+1370,"GCF_001436095.1","FC84_RS02810","WP_057755075.1","bifunctional pyr operon transcriptional regulator/uracil phosphoribosyltransferase PyrR","pyrR","-",139694,140206
+1380,"GCF_014228045.1","HCB14_RS01030","WP_185572294.1","ornithine carbamoyltransferase","argF","+",162343,163293
+1385,"GCF_001435715.1","FC71_RS07025","WP_011374394.1","guanylate kinase","gmk","+",113873,114484
+1388,"GCF_007922695.1","LABALGNA3A7_RS05340","WP_146342863.1","bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC","coaBC","+",158811,160013
+1395,"GCF_001435715.1","FC71_RS07360","WP_162926710.1","cell division protein SepF","sepF","+",178545,178982
+1400,"GCF_002406665.1","CPZ14_RS01530","WP_003564762.1","tRNA (guanosine(37)-N1)-methyltransferase TrmD","trmD","+",273885,274652
+1401,"GCF_001436805.1","IV38_RS08905","WP_057770848.1","accessory Sec system protein Asp3","asp3","+",42090,42818
+1404,"GCF_002406665.1","CPZ14_RS01075","WP_003565845.1","bis(5'-nucleosyl)-tetraphosphatase (symmetrical) YqeK","yqeK","+",186772,187371
+1413,"GCF_007991575.1","PET01_RS03520","WP_057805632.1","DNA topoisomerase IV subunit B","parE","-",35797,37797
+1415,"GCF_014228045.1","HCB14_RS02090","WP_185502199.1","NADP-dependent phosphogluconate dehydrogenase","gndA","-",388829,390247
+1419,"GCF_014228045.1","HCB14_RS01675","WP_008947835.1","glycine--tRNA ligase subunit alpha","glyQ","+",297932,298822
+1421,"GCF_001435715.1","FC71_RS07175","WP_011374423.1","30S ribosomal protein S16","rpsP","+",150570,150845
+1423,"GCF_001435715.1","FC71_RS08105","WP_041820821.1","rod shape-determining protein MreD","mreD","+",310316,310846
+1424,"GCF_008690825.1","FE414_RS06390","WP_150280742.1","bis(5'-nucleosyl)-tetraphosphatase (symmetrical) YqeK","yqeK","-",17619,18200
+1431,"GCF_014228045.1","HCB14_RS01015","WP_185572290.1","bifunctional glutamate N-acetyltransferase/amino-acid acetyltransferase ArgJ","argJ","+",159228,160424
+1433,"GCF_007991575.1","PET01_RS03380","WP_057805667.1","diphosphomevalonate decarboxylase","mvaD","-",2188,3153
+1434,"GCF_002406665.1","CPZ14_RS01080","WP_003565844.1","ribosome silencing factor","rsfS","+",187375,187734
+1439,"GCF_007922695.1","LABALGNA3A7_RS04700","WP_146342768.1","primosomal protein DnaI","dnaI","+",60821,61759
+1443,"GCF_001436805.1","IV38_RS08835","WP_057770871.1","glutamate/gamma-aminobutyrate family transporter YjeM","yjeM","+",26748,28253
+1456,"GCF_001435715.1","FC71_RS07060","WP_082268160.1","Stk1 family PASTA domain-containing Ser/Thr kinase","pknB","+",121545,123428
+1460,"GCF_001742285.1","BCR26_RS08750","WP_069698730.1","ribose 5-phosphate isomerase B","rpiB","+",31790,32248
+1465,"GCF_014228045.1","HCB14_RS01245","WP_185391451.1","septum site-determining protein MinD","minD","+",212522,213322
+1466,"GCF_014228045.1","HCB14_RS01520","WP_185506846.1","shikimate dehydrogenase","aroE","+",269599,270420
+1467,"GCF_014228045.1","HCB14_RS01170","WP_185503515.1","threonine--tRNA ligase","thrS","+",194794,196716
+1478,"GCF_001742285.1","BCR26_RS08830","WP_069698617.1","bifunctional glutamate--cysteine ligase GshA/glutathione synthetase GshB","gshAB","+",49741,52011
+1479,"GCF_014228045.1","HCB14_RS02405","WP_003729925.1","ribosome recycling factor","frr","-",450318,450875
+1484,"GCF_007922695.1","LABALGNA3A7_RS05435","WP_057973463.1","signal recognition particle protein","ffh","+",181760,183196
+1486,"GCF_014228045.1","HCB14_RS01605","WP_185502248.1","molecular chaperone DnaK","dnaK","+",284814,286655
+1506,"GCF_002907285.1","BGL45_RS00070","WP_041817795.1","50S ribosomal protein L11 methyltransferase","prmA","+",9414,10292
+1513,"GCF_007922695.1","LABALGNA3A7_RS05465","WP_146342874.1","type II CRISPR RNA-guided endonuclease Cas9","cas9","+",185825,189886
+1531,"GCF_002907285.1","BGL45_RS00495","WP_103467744.1","cell division regulator GpsB","gpsB","-",97337,97729
+1533,"GCF_014228045.1","HCB14_RS01145","WP_185572307.1","DNA-formamidopyrimidine glycosylase","mutM","+",190145,190966
+1538,"GCF_002406665.1","CPZ14_RS01385","WP_096772579.1","primosomal protein N'","priA","+",241822,244239
+1549,"GCF_002907285.1","BGL45_RS00390","WP_014082008.1","peptide-methionine (R)-S-oxide reductase MsrB","msrB","+",79977,80414
+1567,"GCF_007922695.1","LABALGNA3A7_RS05270","WP_146342856.1","bifunctional methylenetetrahydrofolate dehydrogenase/methenyltetrahydrofolate cyclohydrolase FolD","folD","+",147407,148258
+1570,"GCF_002907285.1","BGL45_RS00340","WP_103467733.1","ribosome biogenesis GTPase YlqF","ylqF","+",66816,67676
+1576,"GCF_014228045.1","HCB14_RS01005","WP_185572288.1","tRNA 4-thiouridine(8) synthase ThiI","thiI","+",156798,158009
+1579,"GCF_001436095.1","FC84_RS02225","WP_057754733.1","bifunctional pyr operon transcriptional regulator/uracil phosphoribosyltransferase PyrR","pyrR","+",5785,6327
+1580,"GCA_009917315.1","D1835_06755","NBK08705.1","imidazole glycerol phosphate synthase subunit HisF","hisF","+",103352,104110
+1581,"GCF_002406665.1","CPZ14_RS00785","WP_003576044.1","anaerobic ribonucleoside-triphosphate reductase activating protein","nrdG","+",133961,134539
+1584,"GCF_014228045.1","HCB14_RS01610","WP_008947846.1","molecular chaperone DnaJ","dnaJ","+",286798,287928
+1594,"GCF_014228045.1","HCB14_RS01720","WP_008947828.1","DEAD-box ATP-dependent RNA helicase CshB","cshB","+",308570,309877
+1595,"GCF_014228045.1","HCB14_RS00895","WP_185572277.1","tRNA (guanosine(46)-N7)-methyltransferase TrmB","trmB","+",134927,135571
+1596,"GCF_002907285.1","BGL45_RS01280","WP_056957664.1","5-(carboxyamino)imidazole ribonucleotide mutase","purE","-",248922,249413
+1597,"GCF_001435715.1","FC71_RS06975","WP_011374384.1","transcription antitermination factor NusB","nusB","+",106028,106456
+1603,"GCF_008690825.1","FE414_RS07355","WP_150280815.1","redox-regulated ATPase YchF","ychF","-",203013,204113
+1614,"GCF_002406665.1","CPZ14_RS01750","WP_003575271.1","Cys-tRNA(Pro) deacylase","ybaK","+",319117,319620
+1615,"GCF_002406665.1","CPZ14_RS01640","WP_003565790.1","ribosome maturation factor RimP","rimP","+",297304,297783
+1622,"GCF_001435715.1","FC71_RS07355","WP_011374458.1","cell division protein FtsZ","ftsZ","+",177294,178532
+1627,"GCF_001436095.1","FC84_RS02310","WP_057754782.1","ribosomal protein S18-alanine N-acetyltransferase","rimI","+",22567,23118
+1636,"GCF_001435715.1","FC71_RS08050","WP_011374547.1","30S ribosomal protein S4","rpsD","-",296342,296947
+1644,"GCF_008690825.1","FE414_RS06450","WP_150280744.1","excinuclease ABC subunit UvrB","uvrB","-",30748,32754
+1645,"GCF_002907285.1","BGL45_RS00870","WP_103423353.1","uridine kinase","udk","-",168298,168954
+1650,"GCF_002406665.1","CPZ14_RS00720","WP_003565990.1","5-(carboxyamino)imidazole ribonucleotide mutase","purE","+",119423,119908
+1655,"GCF_002406665.1","CPZ14_RS01315","WP_003579493.1","transcription antitermination factor NusB","nusB","+",231170,231577
+1665,"GCF_002907285.1","BGL45_RS00260","WP_103467723.1","ribosome biogenesis GTPase Der","der","+",48809,50116
+1666,"GCF_001436095.1","FC84_RS03465","WP_057755523.1","ribosome recycling factor","frr","-",276097,276657
+1672,"GCF_014228045.1","HCB14_RS01240","WP_185391452.1","septum site-determining protein MinC","minC","+",211842,212519
+1679,"GCF_002907285.1","BGL45_RS00720","WP_082610565.1","16S rRNA (cytosine(967)-C(5))-methyltransferase RsmB","rsmB","-",144808,146154
+1680,"GCF_007922695.1","LABALGNA3A7_RS05235","WP_186726294.1","50S ribosomal protein L21","rplU","+",143660,143968
+1682,"GCF_002406665.1","CPZ14_RS01120","WP_003588061.1","membrane protein insertase YidC","yidC","-",195252,196250
+1688,"GCF_008690825.1","FE414_RS06970","WP_014974844.1","hydroxyethylthiazole kinase","thiM","-",136764,137540
+1689,"GCF_001436805.1","IV38_RS09290","WP_057770696.1","IS200/IS605 family transposase","tnpA","-",111915,112376
+1690,"GCF_002907285.1","BGL45_RS00200","WP_103467718.1","pyruvate kinase","pyk","+",37631,39391
+1696,"GCF_001435715.1","FC71_RS07005","WP_025015872.1","arginine repressor","argR","+",110866,111318
+1697,"GCF_002406665.1","CPZ14_RS00385","WP_096772561.1","ferrous iron transport protein B","feoB","+",51024,53135
+1699,"GCF_002406665.1","CPZ14_RS00705","WP_003565999.1","phosphoenolpyruvate--protein phosphotransferase","ptsP","+",114861,116588
+1703,"GCF_014228045.1","HCB14_RS01330","WP_008947898.1","protein translocase subunit SecDF","secDF","+",227700,229964
+1708,"GCF_001436095.1","FC84_RS03515","WP_057755565.1","DNA repair protein RadA","radA","-",285951,287339
+1719,"GCF_002907285.1","BGL45_RS00255","WP_103423539.1","30S ribosomal protein S1","rpsA","+",47529,48743
+1724,"GCF_001436095.1","FC84_RS03450","WP_057755514.1","RIP metalloprotease RseP","rseP","-",273256,274524
+1733,"GCF_007922695.1","LABALGNA3A7_RS04720","WP_057973381.1","50S ribosomal protein L20","rplT","+",65075,65434
+1740,"GCF_008690825.1","FE414_RS06330","WP_014974716.1","SsrA-binding protein SmpB","smpB","-",7483,7950
+1742,"GCF_001436095.1","FC84_RS03380","WP_057755456.1","molecular chaperone DnaK","dnaK","-",254111,255964
+1748,"GCF_001435715.1","FC71_RS07925","WP_011374522.1","NA","fabG","+",274850,275581
+1751,"GCF_002406665.1","CPZ14_RS00630","WP_003579736.1","23S rRNA (uracil(1939)-C(5))-methyltransferase RlmD","rlmD","-",100824,102191
+1752,"GCF_002406665.1","CPZ14_RS01625","WP_003565798.1","RIP metalloprotease RseP","rseP","+",289655,290896
+1769,"GCF_002907285.1","BGL45_RS00970","WP_041817703.1","translation initiation factor IF-3","infC","-",183516,184022
+1771,"GCF_001435715.1","FC71_RS06950","WP_011374379.1","50S ribosomal protein L21","rplU","+",103700,104008
+1776,"GCF_001435715.1","FC71_RS07340","WP_035146272.1","undecaprenyldiphospho-muramoylpentapeptide beta-N-acetylglucosaminyltransferase","murG","+",173844,174944
+1785,"GCF_014228045.1","HCB14_RS01925","WP_008947786.1","multidrug efflux MFS transporter MdrL","mdrL","-",350572,351765
+1787,"GCF_001742285.1","BCR26_RS08770","WP_069698606.1","phosphate acyltransferase PlsX","plsX","+",34485,35483
+1795,"GCF_014228045.1","HCB14_RS00760","WP_185572261.1","aconitate hydratase AcnA","acnA","+",105608,108310
+1799,"GCF_002406665.1","CPZ14_RS01680","WP_016388463.1","riboflavin biosynthesis protein RibF","ribF","+",304946,305893
+1800,"GCF_002406665.1","CPZ14_RS01105","WP_003575396.1","NADP-dependent phosphogluconate dehydrogenase","gndA","+",191084,192502
+1810,"GCF_002907285.1","BGL45_RS00980","WP_103423345.1","primosomal protein DnaI","dnaI","-",186440,187378
+1814,"GCF_014228045.1","HCB14_RS01165","WP_008947927.1","primosomal protein DnaI","dnaI","+",193520,194443
+1816,"GCF_002406665.1","CPZ14_RS01025","WP_003565866.1","50S ribosomal protein L20","rplT","+",179013,179369
+1821,"GCF_008690825.1","FE414_RS06295","WP_014974709.1","guanylate kinase","gmk","-",1759,2355
+1825,"GCF_001435715.1","FC71_RS08225","WP_011374582.1","glycine--tRNA ligase subunit alpha","glyQ","+",332729,333646
+1826,"GCF_007922695.1","LABALGNA3A7_RS05420","WP_146342873.1","chromosome segregation protein SMC","smc","+",176702,180232
+1843,"GCF_001435715.1","FC71_RS06890","WP_011374365.1","phosphoribosylformylglycinamidine synthase subunit PurS","purS","+",91827,92087
+1845,"GCF_001436095.1","FC84_RS03410","WP_057755472.1","30S ribosome-binding factor RbfA","rbfA","-",261476,261823
+1846,"GCF_001436095.1","FC84_RS03150","WP_057755263.1","glycine--tRNA ligase subunit alpha","glyQ","-",213629,214537
+1866,"GCF_007991575.1","PET01_RS03805","WP_057805526.1","type I DNA topoisomerase","topA","-",84735,86810
+1874,"GCF_002907285.1","BGL45_RS00350","WP_103429041.1","DNA-protecting protein DprA","dprA","+",68485,69360
+1875,"GCF_007922695.1","LABALGNA3A7_RS05405","WP_146342871.1","phosphate acyltransferase PlsX","plsX","+",174526,175536
+1876,"GCF_014228045.1","HCB14_RS02605","WP_185503622.1","type I DNA topoisomerase","topA","-",494724,496802
+1878,"GCF_001435715.1","FC71_RS08205","WP_056948521.1","rRNA maturation RNase YbeY","ybeY","+",329870,330346
+1883,"GCF_014228045.1","HCB14_RS00800","WP_185502338.1","adhesion-mediating acetaldehyde/alcohol dehydrogenase LAP","lap","-",113398,115998
+1891,"GCF_007991575.1","PET01_RS03735","WP_057805557.1","phage recombination protein Bet","bet","-",73670,74458
+1896,"GCF_001435715.1","FC71_RS08160","WP_056948513.1","peptide-methionine (S)-S-oxide reductase MsrA","msrA","+",321712,322230
+1899,"GCF_002907285.1","BGL45_RS00505","WP_180993888.1","Holliday junction resolvase RecU","recU","+",98489,99091
+1905,"GCF_014228045.1","HCB14_RS01070","WP_185572299.1","alanine dehydrogenase","ald","+",169600,170712
+1926,"GCF_001436095.1","FC84_RS02680","WP_057754995.1","ribosome biogenesis GTPase YlqF","ylqF","+",102415,103272
+1933,"GCF_001436095.1","FC84_RS02540","WP_057754912.1","ribosome biogenesis GTPase Der","der","+",73831,75141
+1935,"GCF_002907285.1","BGL45_RS00375","WP_103423528.1","DNA topoisomerase IV subunit B","parE","+",74354,76312
+1940,"GCF_001436095.1","FC84_RS02455","WP_057754868.1","DNA polymerase III subunit alpha","dnaE","+",55633,58971
+1941,"GCA_009917315.1","D1835_06355","NBK08627.1","UDP-N-acetylglucosamine 1-carboxyvinyltransferase","murA","+",23272,24573
+1944,"GCF_001436095.1","FC84_RS02290","WP_057754773.1","16S rRNA (cytidine(1402)-2'-O)-methyltransferase","rsmI","+",19370,20242
+1947,"GCF_001435715.1","FC71_RS06915","WP_056948314.1","phosphoribosylglycinamide formyltransferase","purN","+",97425,97994
+1948,"GCF_007922695.1","LABALGNA3A7_RS05440","WP_057973464.1","30S ribosomal protein S16","rpsP","+",183337,183612
+1952,"GCF_002406665.1","CPZ14_RS01280","WP_003564642.1","50S ribosomal protein L21","rplU","+",227496,227807
+1961,"GCF_014228045.1","HCB14_RS01185","WP_185572311.1","hydroxymethylbilane synthase","hemC","+",198846,199775
+1977,"GCF_002406665.1","CPZ14_RS01305","WP_003564662.1","elongation factor P","efp","+",230124,230687
+1981,"GCF_014228045.1","HCB14_RS01595","WP_185391397.1","heat-inducible transcriptional repressor HrcA","hrcA","+",283126,284163
+1984,"GCF_001435715.1","FC71_RS07725","WP_056948432.1","DNA (cytosine-5-)-methyltransferase","dcm","+",242873,243808
+1990,"GCA_009917315.1","D1835_06745","NBK08703.1","imidazole glycerol phosphate synthase subunit HisH","hisH","+",101879,102505
+1993,"GCF_002907285.1","BGL45_RS00580","WP_014081974.1","diphosphomevalonate decarboxylase","mvaD","+",117043,118026
+1997,"GCF_002907285.1","BGL45_RS01275","WP_103467822.1","5-(carboxyamino)imidazole ribonucleotide synthase","purK","-",247796,248932
+2002,"GCF_014228045.1","HCB14_RS00155","WP_185572100.1","1,4-dihydroxy-2-naphthoyl-CoA synthase","menB","+",15154,15972
+2003,"GCF_001436095.1","FC84_RS03090","WP_057755235.1","3-dehydroquinate synthase","aroB","-",199177,200244
+2006,"GCF_001436095.1","FC84_RS02690","WP_057755002.1","DNA-protecting protein DprA","dprA","+",104087,104926
+2007,"GCF_002406665.1","CPZ14_RS01535","WP_096772582.1","50S ribosomal protein L19","rplS","+",274789,275136
+2011,"GCF_007922695.1","LABALGNA3A7_RS05355","WP_146342866.1","16S rRNA (cytosine(967)-C(5))-methyltransferase RsmB","rsmB","+",163429,164781
+2017,"GCF_007991575.1","PET01_RS03790","WP_057805532.1","ATP-dependent protease ATPase subunit HslU","hslU","-",81745,83163
+2026,"GCF_002406665.1","CPZ14_RS01015","WP_079321789.1","translation initiation factor IF-3","infC","+",178195,178698
+2030,"GCF_002907285.1","BGL45_RS00355","WP_056957797.1","type I DNA topoisomerase","topA","+",69449,71572
+2031,"GCF_001435715.1","FC71_RS08090","WP_011374555.1","DNA repair protein RadC","radC","+",307454,308128
+2033,"GCF_001435715.1","FC71_RS07310","WP_011374449.1","division/cell wall cluster transcriptional repressor MraZ","mraZ","+",167530,167961
+2034,"GCF_002907285.1","BGL45_RS01265","WP_056957662.1","phosphoribosylformylglycinamidine synthase subunit PurS","purS","-",246824,247078
+2037,"GCF_008690825.1","FE414_RS06340","WP_014974718.1","preprotein translocase subunit SecG","secG","-",10388,10630
+2039,"GCF_001436095.1","FC84_RS03385","WP_057755458.1","nucleotide exchange factor GrpE","grpE","-",255990,256637
+2045,"GCA_009917315.1","D1835_06320","NBK08620.1","ATP synthase F0 subunit B","atpF","+",17276,17797
+2051,"GCF_001435715.1","FC71_RS06770","WP_011374341.1","tRNA (guanosine(46)-N7)-methyltransferase TrmB","trmB","+",66605,67246
+2062,"GCA_009917315.1","D1835_06465","NBK08647.1","cell division ATP-binding protein FtsE","ftsE","+",45744,46433
+2071,"GCF_007922695.1","LABALGNA3A7_RS05425","WP_112249740.1","signal recognition particle-docking protein FtsY","ftsY","+",180264,181289
+2074,"GCF_001436095.1","FC84_RS03850","WP_057755731.1","phage recombination protein Bet","bet","-",339717,340496
+2079,"GCF_002907285.1","BGL45_RS00395","WP_103467736.1","peptide-methionine (S)-S-oxide reductase MsrA","msrA","+",80426,80956
+2080,"GCF_008690825.1","FE414_RS06960","WP_014974842.1","thiamine phosphate synthase","thiE","-",135313,135948
+2083,"GCF_002907285.1","BGL45_RS00945","WP_014081905.1","ribosome assembly RNA-binding protein YhbY","yhbY","-",180806,181117
+2085,"GCF_008690825.1","FE414_RS06405","WP_135197701.1","ribosome biogenesis GTPase YqeH","yqeH","-",19164,20309
+2092,"GCF_002907285.1","BGL45_RS00550","WP_180993889.1","thiol reductant ABC exporter subunit CydC","cydC","+",109078,110823
+2097,"GCF_002907285.1","BGL45_RS01230","WP_103467818.1","phosphoribosylamine--glycine ligase","purD","-",238050,239285
+2102,"GCF_014228045.1","HCB14_RS01535","WP_185391407.1","bis(5'-nucleosyl)-tetraphosphatase (symmetrical) YqeK","yqeK","+",271282,271857
+2104,"GCF_014228045.1","HCB14_RS01320","WP_008947900.1","preprotein translocase subunit YajC","yajC","+",226844,227164
+2112,"GCF_014228045.1","HCB14_RS02370","WP_003732818.1","ribosome maturation factor RimP","rimP","-",439261,439728
+2115,"GCF_001436805.1","IV38_RS08880","WP_057770857.1","accessory Sec system translocase SecA2","secA2","+",35338,37713
+2116,"GCF_007922695.1","LABALGNA3A7_RS05095","WP_146342834.1","phenylalanine--tRNA ligase subunit alpha","pheS","+",115833,116879
+2123,"GCF_014228045.1","HCB14_RS02625","WP_185502130.1","type I signal peptidase SipZ","sipZ","-",499723,500265
+2125,"GCF_014228045.1","HCB14_RS02150","WP_185572564.1","1-deoxy-D-xylulose-5-phosphate synthase","dxs","-",401976,403805
+2133,"GCF_014228045.1","HCB14_RS00875","WP_008947982.1","D-amino-acid transaminase","dat","+",130929,131798
+2134,"GCF_001435715.1","FC71_RS06790","WP_016264823.1","asparagine synthase (glutamine-hydrolyzing)","asnB","+",68919,70823
+2137,"GCF_014228045.1","HCB14_RS01230","WP_008947914.1","rod shape-determining protein MreC","mreC","+",210254,211141
+2143,"GCF_003410375.1","DT351_RS11130","WP_116843847.1","recombinase RecA","recA","+",38332,39423
+2154,"GCF_007922695.1","LABALGNA3A7_RS05055","WP_057973394.1","NADP-dependent phosphogluconate dehydrogenase","gndA","+",108253,109674
+2165,"GCF_001435715.1","FC71_RS06685","WP_056948275.1","arginine repressor","argR","+",48685,49152
+2168,"GCF_001435715.1","FC71_RS07095","WP_056948552.1","ATP-dependent DNA helicase RecG","recG","+",128998,131046
+2173,"GCF_007922695.1","LABALGNA3A7_RS04710","WP_057973379.1","translation initiation factor IF-3","infC","+",64290,64790
+2177,"GCF_001641385.1","A7X59_RS03090","WP_063697120.1","cadmium-translocating P-type ATPase","cadA","-",59774,61600
+2184,"GCF_001435715.1","FC71_RS06880","WP_056948306.1","adenylosuccinate lyase","purB","+",89701,90996
+2194,"GCF_001436095.1","FC84_RS03120","WP_057755251.1","RNA polymerase sigma factor RpoD","rpoD","-",205309,206460
+2195,"GCF_014228045.1","HCB14_RS02610","WP_185506784.1","DNA-protecting protein DprA","dprA","-",497074,497934
+2204,"GCF_014228045.1","HCB14_RS00170","WP_185557457.1","membrane protein insertion efficiency factor YidD","yidD","-",18515,18781
+2207,"GCF_014228045.1","HCB14_RS00820","WP_185572273.1","indole-3-glycerol phosphate synthase TrpC","trpC","+",120025,120783
+2209,"GCF_001435715.1","FC71_RS06960","WP_011374381.1","50S ribosomal protein L27","rpmA","+",104393,104680
+2210,"GCA_009917315.1","D1835_06315","NBK08619.1","ATP synthase F0 subunit C","atpE","+",16970,17185
+2211,"GCF_014228045.1","HCB14_RS00125","WP_185572093.1","cystathionine beta-lyase","metC","+",7033,8205
+2213,"GCA_009917315.1","D1835_06750","NBK08704.1","NA","hisA","+",102502,103221
+2224,"GCF_001436095.1","FC84_RS03255","WP_057755336.1","50S ribosomal protein L11 methyltransferase","prmA","-",233478,234374
+2239,"GCF_014228045.1","HCB14_RS01135","WP_008947932.1","NADP-dependent isocitrate dehydrogenase","icd","+",186066,187328
+2243,"GCF_002907285.1","BGL45_RS00540","WP_103467750.1","cytochrome d ubiquinol oxidase subunit II","cydB","+",106289,107323
+2246,"GCF_002406665.1","CPZ14_RS01230","WP_003605308.1","tRNA (adenosine(37)-N6)-dimethylallyltransferase MiaA","miaA","+",216476,217405
+2247,"GCF_014228045.1","HCB14_RS01790","WP_185517532.1","aspartate kinase","dapG","+",322552,323763
+2263,"GCF_014228045.1","HCB14_RS02140","WP_003722493.1","transcriptional regulator ArgR","argR","-",400515,400964
+2285,"GCF_002406665.1","CPZ14_RS00740","WP_003599047.1","phosphoribosylformylglycinamidine synthase subunit PurQ","purQ","+",121992,122678
+2286,"GCF_001435715.1","FC71_RS07565","WP_011374501.1","deoxyribose-phosphate aldolase","deoC","+",216698,217348
+2287,"GCF_007922695.1","LABALGNA3A7_RS05245","WP_083478911.1","50S ribosomal protein L27","rpmA","+",144342,144629
+2291,"GCF_001436805.1","IV38_RS08745","WP_057770907.1","tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex ATPase subunit type 1 TsaE","tsaE","+",10202,10678
+2302,"GCF_002907285.1","BGL45_RS00950","WP_041817706.1","ribosome biogenesis GTPase YqeH","yqeH","-",181127,182260
+2319,"GCF_014228045.1","HCB14_RS02135","WP_185517581.1","DNA repair protein RecN","recN","-",398801,400492
+2320,"GCF_001435715.1","FC71_RS07945","WP_011374526.1","acetyl-CoA carboxylase biotin carboxylase subunit","accC","+",277727,279073
+2325,"GCF_001435715.1","FC71_RS07380","WP_056948364.1","isoleucine--tRNA ligase","ileS","+",181147,183933
+2334,"GCF_007922695.1","LABALGNA3A7_RS05070","WP_146342832.1","membrane protein insertase YidC","yidC","-",112215,113147
+2342,"GCF_001436095.1","FC84_RS02280","WP_057754767.1","DNA polymerase III subunit delta'","holB","+",17936,18913
+2345,"GCF_001436095.1","FC84_RS02945","WP_057755154.1","helicase-exonuclease AddAB subunit AddA","addA","-",167759,171514
+2348,"GCF_014228045.1","HCB14_RS02455","WP_008947686.1","cell division suppressor protein YneA","yneA","-",458970,459299
+2352,"GCF_002907285.1","BGL45_RS00990","WP_103467790.1","transcriptional repressor NrdR","nrdR","-",188718,189206
+2360,"GCF_002406665.1","CPZ14_RS00475","WP_096772567.1","ammonia-dependent NAD(+) synthetase","nadE","+",73545,74372
+2365,"GCF_001436095.1","FC84_RS02735","WP_057755029.1","DNA topoisomerase IV subunit A","parC","+",115467,117944
+2367,"GCA_009917315.1","D1835_06565","NBK08667.1","catabolite control protein A","ccpA","+",63786,64790
+2375,"GCF_001436095.1","FC84_RS02960","WP_057755163.1","diphosphomevalonate decarboxylase","mvaD","+",176258,177220
+2376,"GCF_002907285.1","BGL45_RS00175","WP_103467715.1","RNA polymerase sigma factor RpoD","rpoD","+",31030,32235
+2381,"GCF_014228045.1","HCB14_RS02175","WP_185572397.1","bifunctional methylenetetrahydrofolate dehydrogenase/methenyltetrahydrofolate cyclohydrolase FolD","folD","-",406843,407697
+2384,"GCF_001436805.1","IV38_RS08710","WP_057770933.1","Fe-S cluster assembly ATPase SufC","sufC","-",4188,4958
+2396,"GCF_002907285.1","BGL45_RS00805","WP_041817715.1","50S ribosomal protein L21","rplU","-",159949,160257
+2397,"GCF_002406665.1","CPZ14_RS01455","WP_003564726.1","acyl carrier protein","acpP","+",257940,258182
+2401,"GCF_014228045.1","HCB14_RS01285","WP_008947906.1","prephenate dehydratase","pheA","+",220111,220959
+2403,"GCF_002406665.1","CPZ14_RS01395","WP_003605279.1","16S rRNA (cytosine(967)-C(5))-methyltransferase RsmB","rsmB","+",245250,246590
+2407,"GCF_002406665.1","CPZ14_RS01715","WP_003575274.1","elongation factor 4","lepA","+",312373,314211
+2411,"GCF_001436095.1","FC84_RS03175","WP_057755276.1","rRNA maturation RNase YbeY","ybeY","-",217494,217970
+2413,"GCA_009917315.1","D1835_06290","NBK08614.1","preprotein translocase subunit SecG","secG","+",11930,12166
+2415,"GCF_008690825.1","FE414_RS06835","WP_014974818.1","3-hydroxyacyl-ACP dehydratase FabZ","fabZ","-",109931,110374
+2423,"GCF_008690825.1","FE414_RS06550","WP_150280754.1","23S rRNA (uracil(1939)-C(5))-methyltransferase RlmD","rlmD","-",56154,57530
+2429,"GCF_001436095.1","FC84_RS02355","WP_057754807.1","ATP-dependent Clp protease ATP-binding subunit ClpX","clpX","+",32311,33564
+2433,"GCF_001436805.1","IV38_RS08995","WP_082617970.1","Flp pilus assembly complex ATPase component TadA","tadA","+",62579,63541
+2435,"GCF_014228045.1","HCB14_RS02385","WP_185502162.1","RIP metalloprotease RseP","rseP","-",446094,447356
+2436,"GCF_001436095.1","FC84_RS03370","WP_057755448.1","elongation factor 4","lepA","-",250850,252688
+2443,"GCF_008690825.1","FE414_RS06400","WP_014974730.1","ribosome assembly RNA-binding protein YhbY","yhbY","-",18850,19164
+2452,"GCF_014228045.1","HCB14_RS02495","WP_003719566.1","RNA chaperone Hfq","hfq","-",466614,466847
+2453,"GCF_007922695.1","LABALGNA3A7_RS04675","WP_146342764.1","DNA polymerase I","polA","+",54748,57435
+2457,"GCF_008690825.1","FE414_RS06680","WP_150280768.1","bifunctional DNA-formamidopyrimidine glycosylase/DNA-(apurinic or apyrimidinic site) lyase","mutM","-",82714,83547
+2458,"GCF_001435715.1","FC71_RS07100","WP_056948342.1","phosphate acyltransferase PlsX","plsX","+",131066,132079
+2461,"GCF_002907285.1","BGL45_RS00795","WP_014081934.1","50S ribosomal protein L27","rpmA","-",159301,159597
+2464,"GCF_008690825.1","FE414_RS06395","WP_014974729.1","nicotinate (nicotinamide) nucleotide adenylyltransferase","nadD","-",18193,18831
+2470,"GCF_001435715.1","FC71_RS07105","WP_011374409.1","acyl carrier protein","acpP","+",132226,132468
+2480,"GCF_001436095.1","FC84_RS03215","WP_057755310.1","aspartate--tRNA ligase","aspS","-",223840,225618
+2483,"GCF_007922695.1","LABALGNA3A7_RS05330","WP_057973443.1","guanylate kinase","gmk","+",157865,158485
+2489,"GCF_008690825.1","FE414_RS06500","WP_014974751.1","preprotein translocase subunit YajC","yajC","-",45606,45956
+2496,"GCF_014228045.1","HCB14_RS01450","WP_185502267.1","alanine--tRNA ligase","alaS","+",256807,259446
+2500,"GCF_007922695.1","LABALGNA3A7_RS04640","WP_146342877.1","glutamyl aminopeptidase","pepA","+",47580,48659
+2505,"GCA_009917315.1","D1835_06340","NBK08624.1","F0F1 ATP synthase subunit beta","atpD","+",20822,22222
+2508,"GCF_001435715.1","FC71_RS07050","WP_056948336.1","16S rRNA (cytosine(967)-C(5))-methyltransferase RsmB","rsmB","+",119437,120780
+2510,"GCF_001435715.1","FC71_RS07545","WP_056948384.1","ATP-dependent sacrificial sulfur transferase LarE","larE","+",212676,213512
+2522,"GCF_002907285.1","BGL45_RS00780","WP_056957598.1","transcription antitermination factor NusB","nusB","-",157743,158153
+2534,"GCF_001436805.1","IV38_RS08895","WP_057770852.1","accessory Sec system glycosyltransferase Asp1","asp1","+",39693,40502
+2535,"GCF_001742285.1","BCR26_RS09175","WP_069698683.1","elongation factor P","efp","+",127277,127840
+2536,"GCF_001435715.1","FC71_RS06895","WP_056948308.1","phosphoribosylformylglycinamidine synthase subunit PurQ","purQ","+",92084,92770
+2537,"GCA_009917315.1","D1835_06500","NBK08654.1","phosphate ABC transporter permease PstA","pstA","+",52239,53126
+2541,"GCF_014228045.1","HCB14_RS01765","WP_185572360.1","flavodoxin-dependent (E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase","ispG","-",316074,317180
+2546,"GCF_002406665.1","CPZ14_RS01020","WP_003565872.1","50S ribosomal protein L35","rpmI","+",178778,178978
+2548,"GCF_001436095.1","FC84_RS03375","WP_057755453.1","molecular chaperone DnaJ","dnaJ","-",252785,253924
+2553,"GCF_008690825.1","FE414_RS06795","WP_014974810.1","acetyl-CoA carboxylase biotin carboxyl carrier protein","accB","-",103667,104119
+2558,"GCF_014228045.1","HCB14_RS02595","WP_185502135.1","tyrosine recombinase XerC","xerC","-",492169,493071
+2562,"GCF_001742285.1","BCR26_RS09300","WP_069698708.1","flavodoxin-dependent (E)-4-hydroxy-3-methylbut-2-enyl-diphosphate synthase","ispG","-",153388,154479
+2564,"GCF_014228045.1","HCB14_RS02075","WP_185506813.1","membrane protein insertase YidC","yidC","+",385644,386471
+2565,"GCF_002406665.1","CPZ14_RS01410","WP_003605274.1","ribosome small subunit-dependent GTPase A","rsgA","+",249337,250242
+2572,"GCF_002907285.1","BGL45_RS00910","WP_014081912.1","50S ribosomal protein L32","rpmF","-",176527,176709
+2574,"GCF_001435715.1","FC71_RS06900","WP_056948311.1","phosphoribosylformylglycinamidine synthase subunit PurL","purL","+",92760,94985
+2577,"GCF_002406665.1","CPZ14_RS00995","WP_096772575.1","threonine--tRNA ligase","thrS","+",174096,176069
+2588,"GCF_001436095.1","FC84_RS02745","WP_151425846.1","pyruvate formate lyase-activating protein","pflA","+",120815,121618
+2589,"GCF_001436095.1","FC84_RS02255","WP_057754750.1","DNA polymerase III subunit gamma/tau","dnaX","+",14156,15871
+2592,"GCF_014228045.1","HCB14_RS02550","WP_070294119.1","DNA topoisomerase IV subunit B","parE","-",484302,486269
+2597,"GCF_001435715.1","FC71_RS08265","WP_011374590.1","peptidase T","pepT","+",341668,342909
+2603,"GCF_014228045.1","HCB14_RS01565","WP_008947854.1","DNA polymerase III subunit delta","holA","+",276666,277697
+2610,"GCF_001436095.1","FC84_RS02535","WP_057754909.1","30S ribosomal protein S1","rpsA","+",72487,73710
+2613,"GCF_014228045.1","HCB14_RS00150","WP_185572098.1","2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase","menH","+",14330,15157
+2614,"GCF_014228045.1","HCB14_RS02560","WP_008947663.1","glycerol-3-phosphate 1-O-acyltransferase PlsY","plsY","+",487016,487612
+2617,"GCF_014228045.1","HCB14_RS01280","WP_185391448.1","GTPase ObgE","obgE","+",218754,220043
+2618,"GCF_001641385.1","A7X59_RS03100","WP_057775060.1","asparagine synthase (glutamine-hydrolyzing)","asnB","+",63195,65075
+2621,"GCF_001436095.1","FC84_RS08965","WP_057755951.1","DNA/RNA nuclease SfsA","sfsA","-",399020,399727
+2628,"GCF_001436095.1","FC84_RS04115","WP_057755852.1","single-stranded DNA-binding protein","ssb","-",378581,378982
+2641,"GCF_014228045.1","HCB14_RS01980","WP_008947774.1","recombinase RecA","recA","-",364729,365772
+2665,"GCF_002907285.1","BGL45_RS00575","WP_103467756.1","mevalonate kinase","mvk","+",116094,117056
+2666,"GCF_014228045.1","HCB14_RS02585","WP_185572425.1","ATP-dependent protease ATPase subunit HslU","hslU","-",490186,491595
+2669,"GCF_001435715.1","FC71_RS08270","WP_056948532.1","type I 3-dehydroquinate dehydratase","aroD","-",342964,343686
+2670,"GCF_014228045.1","HCB14_RS01575","WP_008947853.1","elongation factor 4","lepA","+",278282,280108
+2676,"GCF_002406665.1","CPZ14_RS01445","WP_179297226.1","ATP-dependent DNA helicase RecG","recG","+",254800,256839
+2677,"GCF_008690825.1","FE414_RS06385","WP_014974727.1","ribosome silencing factor","rsfS","-",17203,17574
+2679,"GCF_014228045.1","HCB14_RS01515","WP_185391411.1","ribosome biogenesis GTPase YqeH","yqeH","+",268479,269579
+2681,"GCF_014228045.1","HCB14_RS01990","WP_003723921.1","CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase","pgsA","-",367356,367934
+2692,"GCF_014228045.1","HCB14_RS00675","WP_003723971.1","30S ribosomal protein S2","rpsB","+",85123,85872
+2696,"GCF_008690825.1","FE414_RS06435","WP_014974737.1","DNA-binding protein WhiA","whiA","-",25426,26370
+2702,"GCF_001435715.1","FC71_RS07195","WP_056948356.1","50S ribosomal protein L19","rplS","+",152542,152889
+2706,"GCF_001435715.1","FC71_RS07930","WP_041820810.1","beta-ketoacyl-ACP synthase II","fabF","+",275595,276827
+2725,"GCF_001435715.1","FC71_RS08215","WP_011374580.1","GTPase Era","era","+",330761,331663
+2726,"GCF_014228045.1","HCB14_RS01700","WP_003721960.1","RNA polymerase sigma factor RpoD","rpoD","+",304368,305492
+2729,"GCF_002406665.1","CPZ14_RS01380","WP_003594703.1","bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC","coaBC","+",240618,241817
+2734,"GCA_009917315.1","D1835_06450","NBK08644.1","ribosome-associated translation inhibitor RaiA","raiA","+",41009,41554
+2740,"GCF_014228045.1","HCB14_RS02460","WP_008947685.1","transcriptional repressor LexA","lexA","+",459455,460069
+2746,"GCF_001436095.1","FC84_RS02305","WP_057754781.1","tRNA (adenosine(37)-N6)-threonylcarbamoyltransferase complex dimerization subunit type 1 TsaB","tsaB","+",21849,22583
+2750,"GCF_001435715.1","FC71_RS08285","WP_056948538.1","shikimate dehydrogenase","aroE","+",345585,346457
+2752,"GCF_007922695.1","LABALGNA3A7_RS05110","WP_146342837.1","transcription elongation factor GreA","greA","+",120580,121062
+2754,"GCF_002907285.1","BGL45_RS01255","WP_056957660.1","phosphoribosylformylglycinamidine synthase subunit PurL","purL","-",243919,246150
+2755,"GCF_001435715.1","FC71_RS08155","WP_162256147.1","peptide-methionine (R)-S-oxide reductase MsrB","msrB","+",321278,321712
+2756,"GCF_001436805.1","IV38_RS08700","WP_057770922.1","SufS family cysteine desulfurase","sufS","-",1914,3119
+2758,"GCF_001435715.1","FC71_RS08220","WP_011374581.1","DNA repair protein RecO","recO","+",331673,332491
+2766,"GCF_001435715.1","FC71_RS07350","WP_011374457.1","cell division protein FtsA","ftsA","+",175956,177266
+2767,"GCF_001435715.1","FC71_RS06920","WP_056948315.1","bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/IMP cyclohydrolase","purH","+",98011,99543
+2768,"GCF_002406665.1","CPZ14_RS00770","WP_003605353.1","phosphoribosylamine--glycine ligase","purD","+",129707,130945
+2770,"GCF_002907285.1","BGL45_RS00100","WP_103467711.1","aspartate--tRNA ligase","aspS","+",15644,17428
+2774,"GCF_002406665.1","CPZ14_RS01515","WP_003564756.1","30S ribosomal protein S16","rpsP","+",272687,272962
+2776,"GCF_001436095.1","FC84_RS02850","WP_057755104.1","asparagine--tRNA ligase","asnS","-",146299,147687
+2777,"GCF_001435715.1","FC71_RS06640","WP_056948271.1","type I glyceraldehyde-3-phosphate dehydrogenase","gap","+",38323,39336
+2779,"GCF_001435715.1","FC71_RS07505","WP_011374489.1","cobalt transporter CbiM","cbiM","-",206202,207209
+2783,"GCF_002406665.1","CPZ14_RS01665","WP_003565780.1","30S ribosome-binding factor RbfA","rbfA","+",302573,302926
+2801,"GCF_002907285.1","BGL45_RS00600","WP_103423372.1","glycerol kinase GlpK","glpK","-",121532,123034
+2812,"GCF_007922695.1","LABALGNA3A7_RS05455","WP_146302800.1","tRNA (guanosine(37)-N1)-methyltransferase TrmD","trmD","+",184458,185189
+2813,"GCA_009917315.1","D1835_06570","NBK08668.1","trehalose operon repressor","treR","-",64931,65653
+2818,"GCF_007991575.1","PET01_RS03795","WP_057805530.1","ATP-dependent protease subunit HslV","hslV","-",83175,83717
+2819,"GCF_002406665.1","CPZ14_RS01610","WP_003565804.1","ribosome recycling factor","frr","+",286975,287532
+2829,"GCF_014228045.1","HCB14_RS01940","WP_185502212.1","formate C-acetyltransferase","pflB","-",353320,355551
+2838,"GCF_002907285.1","BGL45_RS00935","WP_056957616.1","bis(5'-nucleosyl)-tetraphosphatase (symmetrical) YqeK","yqeK","-",179634,180236
+2840,"GCF_002907285.1","BGL45_RS00160","WP_041817780.1","glycine--tRNA ligase subunit alpha","glyQ","+",26101,27069
+2851,"GCF_008690825.1","FE414_RS06965","WP_150280801.1","bifunctional hydroxymethylpyrimidine kinase/phosphomethylpyrimidine kinase","thiD","-",135938,136771
+2858,"GCF_001436805.1","IV38_RS08900","WP_057770850.1","accessory Sec system protein Asp2","asp2","+",40489,42090
+2859,"GCF_008690825.1","FE414_RS07010","WP_014974852.1","transcription elongation factor GreA","greA","+",146508,146990
+2868,"GCA_009917315.1","D1835_06505","NBK08655.1","phosphate ABC transporter ATP-binding protein","pstB","+",53259,54059
+2875,"GCF_002406665.1","CPZ14_RS01695","WP_003565749.1","nucleotide exchange factor GrpE","grpE","+",308426,309016
+2879,"GCF_008690825.1","FE414_RS06905","WP_014974831.1","glutamate 5-kinase","proB","-",125977,126792
+2880,"GCF_001436805.1","IV38_RS08890","WP_057770854.1","accessory Sec system glycosyltransferase Asp1","asp1","+",38922,39671
+2881,"GCF_014228045.1","HCB14_RS02500","WP_185572417.1","tRNA (adenosine(37)-N6)-dimethylallyltransferase MiaA","miaA","-",466970,467887
+2891,"GCF_008690825.1","FE414_RS06350","WP_150280740.1","membrane protein insertase YidC","yidC","-",11540,12463
+2907,"GCF_014228045.1","HCB14_RS02240","WP_185506804.1","Flp pilus assembly complex ATPase component TadA","tadA","+",418721,419743
+2912,"GCF_002907285.1","BGL45_RS00640","WP_014081965.1","ribosome maturation factor RimM","rimM","-",128495,129010
+2917,"GCF_007922695.1","LABALGNA3A7_RS05020","WP_146342826.1","bis(5'-nucleosyl)-tetraphosphatase (symmetrical) YqeK","yqeK","+",103764,104357
+2921,"GCF_007922695.1","LABALGNA3A7_RS05365","WP_146342867.1","Stk1 family PASTA domain-containing Ser/Thr kinase","pknB","+",165540,167534
+2952,"GCF_001742285.1","BCR26_RS09255","WP_069698699.1","endolytic transglycosylase MltG","mltG","+",145219,146670
+2955,"GCF_014228045.1","HCB14_RS00355","WP_185572147.1","anti-CRISPR protein AcrIIA1","acrIIA1","-",53138,53587
+2962,"GCF_014228045.1","HCB14_RS02600","WP_185503621.1","FADH(2)-oxidizing methylenetetrahydrofolate--tRNA-(uracil(54)-C(5))-methyltransferase TrmFO","trmFO","-",493357,494661
+2964,"GCF_001436095.1","FC84_RS03350","WP_057755437.1","alkaline shock response membrane anchor protein AmaP","amaP","-",247372,247938
+2965,"GCF_002406665.1","CPZ14_RS00965","WP_003565891.1","DNA-formamidopyrimidine glycosylase","mutM","+",169237,170085
+2966,"GCF_007922695.1","LABALGNA3A7_RS05255","WP_057973428.1","elongation factor P","efp","+",145844,146404
+2969,"GCF_014228045.1","HCB14_RS01315","WP_069888766.1","tRNA guanosine(34) transglycosylase Tgt","tgt","+",225671,226810
+2970,"GCF_002406665.1","CPZ14_RS00455","WP_096772566.1","N-acetylglucosamine-6-phosphate deacetylase","nagA","+",68649,69794
+2984,"GCF_002406665.1","CPZ14_RS01250","WP_003564632.1","type I glutamate--ammonia ligase","glnA","+",221682,223022
+2990,"GCF_001436805.1","IV38_RS08830","WP_057770872.1","glutamine--fructose-6-phosphate transaminase (isomerizing)","glmS","+",24764,26584
+2996,"GCA_009917315.1","D1835_06300","NBK08616.1","ribonuclease R","rnr","+",13097,15469
+3002,"GCF_007922695.1","LABALGNA3A7_RS04690","WP_057973375.1","transcriptional repressor NrdR","nrdR","+",58926,59399
+3019,"GCF_002406665.1","CPZ14_RS01350","WP_003564683.1","DNA repair protein RecN","recN","+",236362,238062
+3020,"GCF_014228045.1","HCB14_RS00995","WP_185572285.1","septation ring formation regulator EzrA","ezrA","+",153817,155532
+3024,"GCF_002406665.1","CPZ14_RS01660","WP_003605244.1","translation initiation factor IF-2","infB","+",299681,302512
+3028,"GCF_014228045.1","HCB14_RS00175","WP_185557458.1","nucleoside triphosphatase YtkD","ytkD","+",18855,19328
+3030,"GCF_008690825.1","FE414_RS06800","WP_150280782.1","beta-ketoacyl-ACP synthase II","fabF","-",104123,105385
+3035,"GCF_001436805.1","IV38_RS08765","WP_057770898.1","UDP-N-acetylmuramate dehydrogenase","murB","+",12630,13559
+3040,"GCF_014228045.1","HCB14_RS00975","WP_008947964.1","catabolite control protein A","ccpA","+",149536,150540
+3043,"GCF_014228045.1","HCB14_RS03070","WP_008947628.1","PTS system trehalose-specific EIIBC component","treP","+",561937,563421
+3048,"GCF_014228045.1","HCB14_RS02475","WP_008947682.1","type I glutamate--ammonia ligase","glnA","-",462085,463419
+3059,"GCF_007922695.1","LABALGNA3A7_RS05345","WP_146342864.1","primosomal protein N'","priA","+",160044,162470
+3064,"GCF_002907285.1","BGL45_RS00900","WP_103467783.1","membrane protein insertase YidC","yidC","+",174618,175538
+3072,"GCF_001436095.1","FC84_RS03430","WP_057755487.1","transcription termination/antitermination protein NusA","nusA","-",265300,266424
+3073,"GCF_001435715.1","FC71_RS08055","WP_016265020.1","septation ring formation regulator EzrA","ezrA","+",297320,299032
+3078,"GCF_007922695.1","LABALGNA3A7_RS05010","WP_146342825.1","ribosome assembly RNA-binding protein YhbY","yhbY","+",102783,103097
+3081,"GCF_014228045.1","HCB14_RS03125","WP_185572543.1","ATP-dependent RNA helicase DbpA","dbpA","-",570871,572283
+3084,"GCF_001436095.1","FC84_RS04460","WP_057756046.1","ribosome small subunit-dependent GTPase A","rsgA","-",435626,436639
+3088,"GCF_008690825.1","FE414_RS06570","WP_150280756.1","phenylalanine--tRNA ligase subunit alpha","pheS","-",61857,62906
+3090,"GCF_014228045.1","HCB14_RS00115","WP_185572549.1","5-methyltetrahydropteroyltriglutamate--homocysteine S-methyltransferase","metE","+",3597,5894
+3093,"GCF_002907285.1","BGL45_RS00975","WP_103467788.1","threonine--tRNA ligase","thrS","-",184207,186180
+3103,"GCF_007922695.1","LABALGNA3A7_RS04715","WP_057973380.1","50S ribosomal protein L35","rpmI","+",64817,65017
+3104,"GCF_014228045.1","HCB14_RS01200","WP_185502288.1","glutamate-1-semialdehyde 2,1-aminomutase","hemL","+",201478,202767
+3115,"GCF_001436095.1","FC84_RS03480","WP_057755531.1","30S ribosomal protein S2","rpsB","-",278574,279362
+3119,"GCF_002406665.1","CPZ14_RS01675","WP_003605239.1","tRNA pseudouridine(55) synthase TruB","truB","+",304034,304939
+3125,"GCF_001436095.1","FC84_RS04340","WP_057755985.1","exodeoxyribonuclease III","xth","+",414899,415669
+3129,"GCF_001436095.1","FC84_RS02695","WP_057755004.1","type I DNA topoisomerase","topA","+",105104,107182
+3141,"GCF_007991575.1","PET01_RS03810","WP_057805524.1","DNA-protecting protein DprA","dprA","-",86865,87770
+3155,"GCA_009917315.1","D1835_06550","NBK08664.1","UTP--glucose-1-phosphate uridylyltransferase","galU","+",61436,62329
+3156,"GCF_001742285.1","BCR26_RS08805","WP_069698612.1","nucleoside-diphosphate kinase","ndk","+",42072,42473
+3162,"GCF_001436095.1","FC84_RS02900","WP_083479507.1","cell division regulator GpsB","gpsB","-",158231,158731
+3163,"GCF_002907285.1","BGL45_RS00140","WP_056957770.1","rRNA maturation RNase YbeY","ybeY","+",23246,23728
+3165,"GCF_014228045.1","HCB14_RS01740","WP_008947824.1","zinc ABC transporter permease ZurM","zurM","+",312621,313499
+3168,"GCF_002907285.1","BGL45_RS00820","WP_014081930.1","tRNA (adenosine(37)-N6)-dimethylallyltransferase MiaA","miaA","-",161100,162011
+3169,"GCF_014228045.1","HCB14_RS02180","WP_008947737.1","transcription antitermination factor NusB","nusB","-",407793,408179
+3174,"GCF_008690825.1","FE414_RS06505","WP_150280748.1","tRNA guanosine(34) transglycosylase Tgt","tgt","-",46033,47250
+3181,"GCF_007922695.1","LABALGNA3A7_RS04450","WP_146342737.1","dipeptidase PepV","pepV","+",9047,10444
+3189,"GCF_001436095.1","FC84_RS02345","WP_057754801.1","chaperonin GroEL","groL","+",28953,30578
+3195,"GCF_002406665.1","CPZ14_RS00820","WP_003565949.1","transcriptional regulator Spx","spxA","+",141261,141659
+3198,"GCF_002907285.1","BGL45_RS00370","WP_103423529.1","glycerol-3-phosphate 1-O-acyltransferase PlsY","plsY","-",73567,74196
+3199,"GCF_001436095.1","FC84_RS03105","WP_057755243.1","peptidase T","pepT","-",202090,203334
+3202,"GCF_014228045.1","HCB14_RS00805","WP_185572267.1","anthranilate synthase component I","trpE","+",117071,118435
+3206,"GCF_014228045.1","HCB14_RS01040","WP_008947952.1","signal peptide peptidase SppA","sppA","+",164310,165323
+3207,"GCF_001436095.1","FC84_RS04285","WP_057755959.1","glutamine--fructose-6-phosphate transaminase (isomerizing)","glmS","-",402162,403976
+3215,"GCF_001435715.1","FC71_RS08290","WP_011374595.1","3-deoxy-7-phosphoheptulonate synthase","aroF","+",346454,347449
+3218,"GCF_001436095.1","FC84_RS02340","WP_057754798.1","co-chaperone GroES","groES","+",28586,28870
+3219,"GCF_014228045.1","HCB14_RS01265","WP_003726866.1","50S ribosomal protein L27","rpmA","+",215551,215841
+3227,"GCF_001436095.1","FC84_RS02465","WP_057754873.1","pyruvate kinase","pyk","+",60298,62067
+3229,"GCF_001436095.1","FC84_RS03405","WP_057755469.1","tRNA pseudouridine(55) synthase TruB","truB","-",260446,261351
+3231,"GCF_014228045.1","HCB14_RS01155","WP_003762439.1","transcriptional regulator NrdR","nrdR","+",191664,192128
+3236,"GCF_002406665.1","CPZ14_RS01495","WP_003590985.1","signal recognition particle-docking protein FtsY","ftsY","+",268968,269963
+3238,"GCF_001435715.1","FC71_RS07940","WP_011374525.1","3-hydroxyacyl-ACP dehydratase FabZ","fabZ","+",277291,277713
+3240,"GCA_009917315.1","D1835_06635","NBK08681.1","thioredoxin-disulfide reductase","trxB","+",80447,81361
+3250,"GCF_001436095.1","FC84_RS02700","WP_057755007.1","methylenetetrahydrofolate--tRNA-(uracil(54)-C(5))-methyltransferase (FADH(2)-oxidizing) TrmFO","trmFO","+",107367,108683
+3259,"GCF_001742285.1","BCR26_RS08775","WP_069698607.1","acyl carrier protein","acpP","+",35627,35866
+3260,"GCA_009917315.1","D1835_06705","NBK08695.1","rRNA maturation RNase YbeY","ybeY","+",94187,94660
+3264,"GCF_014228045.1","HCB14_RS01645","WP_185572352.1","rRNA maturation RNase YbeY","ybeY","+",293887,294372
+3271,"GCF_002907285.1","BGL45_RS01235","WP_103467819.1","bifunctional phosphoribosylaminoimidazolecarboxamide formyltransferase/IMP cyclohydrolase","purH","-",239296,240822
+3273,"GCF_007922695.1","LABALGNA3A7_RS05370","WP_057973451.1","ribosome small subunit-dependent GTPase A","rsgA","+",167637,168524
+3276,"GCF_002406665.1","CPZ14_RS00975","WP_003565887.1","transcriptional repressor NrdR","nrdR","+",170739,171206
+3279,"GCF_014228045.1","HCB14_RS01975","WP_003721904.1","ribonuclease Y","rny","-",362866,364428
+3280,"GCF_002907285.1","BGL45_RS00735","WP_103423385.1","bifunctional phosphopantothenoylcysteine decarboxylase/phosphopantothenate--cysteine ligase CoaBC","coaBC","-",149511,150764
+3281,"GCF_014228045.1","HCB14_RS02445","WP_185517606.1","transketolase","tkt","-",456505,458499
+3285,"GCF_002907285.1","BGL45_RS00715","WP_103423363.1","ribosome small subunit-dependent GTPase A","rsgA","-",143891,144799
+3287,"GCF_001435715.1","FC71_RS06965","WP_011374382.1","elongation factor P","efp","+",104982,105539
