@@ -28,7 +28,9 @@ The package `GilOG` does a number of tasks:
 
 First, this package uses calculates gene length and size.
 
-Next, this package calculates correlation efficients and displays the data in a boxplot, scatterplot, and regression lines. .
+Next, this package calculates correlation efficients and displays the data in a boxplot, scatterplot, regression lines, correlation efficients, both overall and  Top 5.
+
+It executes the processing using R Shiny's reactivity functionality using HTML coding in `ui.R` and `global.R` to improve the appearance of the UI.
 
 
 ## Installation
@@ -64,6 +66,9 @@ organism <- read.csv(org_file_path, na.strings = "")
 # load genes data and convert empty strings to NA
 genes <- read.csv(gene_file_path, na.strings = "")
 ```
+
+The `GilOG` package loads two files `organism` and `genes` and validates them for number of columns and column headings.
+Examples can be found in the `inst/extdata` folder.
 
 First, we will prepare the summary data count:
 
@@ -139,7 +144,7 @@ Next, we will calculate and display the scatterplot
 
 ```
 
-Finally, we will calculate and display the Regression Curves
+Next, we will calculate and display the Regression Curves
 
 ```{r regression}
 p <- ggplot2::ggplot(gpo_length_size_top_5, aes(x=gene_size, y=gene_length, color=organism)) +
@@ -153,6 +158,17 @@ p <- ggplot2::ggplot(gpo_length_size_top_5, aes(x=gene_size, y=gene_length, colo
             axis.title.y = element_text(color="#993333", size=14, face="bold")
          )
 ```
+
+Finally, tables of gene statistics per organism are displayed for the top 5 correlation coefficients.
+
+```{r top_5_coef_display}
+# calculate correlation coefficients top 5 - 1st place
+group_id <- as.double(1)
+top_5_coef_display_1st_place <- GilOG::gpo_output_processing(gpo_length_size_top_5, group_id)
+head(top_5_coef_display_1st_place)
+```
+
+![](man/figures/gene-stats-1st-place.png){width=100%}
 
 ## Organisgenes flowchart
 
@@ -174,7 +190,6 @@ DiagrammeR::grViz("digraph{
         fontsize = 72
         label = 'Start Processing'
         node[shape = rectangle, fillcolor = LemonChiffon, margin = 0.1, fontsize=72]
-        global[label = 'global.R', shape = oval, fillcolor = '#FF6347', fontsize=48]
         read_files[label = 'read_files', shape = folder, fillcolor = '#FF6347', fontsize=48]
       }
   
@@ -185,12 +200,12 @@ DiagrammeR::grViz("digraph{
          fontsize = 72
          label = 'GilOG \n Processing Functions'
          node[shape = rectangle, fillcolor = LemonChiffon, margin = 0.25, fontsize = 48, nodesep=1.5]
-         fileInput_C[label = 'dataframe_preprocessing()']
-         fileInput_D[label = 'summary_count_processing()']
-         fileInput_E[label = 'gpo_processing()']
-         fileInput_F[label = 'gene_length_size_calc()']
-         fileInput_G[label = 'cor_processing()']
-         fileInput_H[label = 'cor_processing_top_5()']
+         GilOG_proc_D[label = 'summary_count_processing()']
+         GilOG_proc_E[label = 'gpo_processing()']
+         GilOG_proc_F[label = 'gene_length_size_calc()']
+         GilOG_proc_G[label = 'cor_processing()']
+         GilOG_proc_H[label = 'cor_processing_top_5()']
+         GilOG_proc_I[label = 'gpo_output_processing()']
       }
   
       subgraph cluster_3 {
@@ -200,24 +215,24 @@ DiagrammeR::grViz("digraph{
          fontsize = 72
          label = 'GilOG \n Display Functions'
          node[shape = rectangle, fillcolor = LemonChiffon, margin = 0.25]
-         fileInput_I[label = 'Data summary', shape = display, fillcolor = '#FF6347', fontsize = 48]
-         fileInput_J[label = 'Genes Per Organism', shape = display, fillcolor = '#FF6347', fontsize = 48]
-         fileInput_K[label = 'Correlation coefficients', shape = display, fillcolor = '#FF6347', fontsize = 48]
-         fileInput_L[label = 'Box Plot', shape = display, fillcolor = '#FF6347', fontsize = 48]
-         fileInput_M[label = 'Scatter Plot', shape = display, fillcolor = '#FF6347', fontsize = 48]
-         fileInput_N[label = 'Regression Curves', shape = display, fillcolor = '#FF6347', fontsize = 48]
+         GilOG_disp_I[label = 'Data summary', shape = display, fillcolor = '#FF6347', fontsize = 48]
+         GilOG_disp_J[label = 'Genes Per Organism', shape = display, fillcolor = '#FF6347', fontsize = 48]
+         GilOG_disp_K[label = 'Correlation coefficients', shape = display, fillcolor = '#FF6347', fontsize = 48]
+         GilOG_disp_L[label = 'Box Plot', shape = display, fillcolor = '#FF6347', fontsize = 48]
+         GilOG_disp_M[label = 'Scatter Plot', shape = display, fillcolor = '#FF6347', fontsize = 48]
+         GilOG_disp_N[label = 'Regression Curves', shape = display, fillcolor = '#FF6347', fontsize = 48]
+         GilOG_disp_O[label = 'Genes Per Organism Stats - Top 5', shape = display, fillcolor = '#FF6347', fontsize = 48]
       }
   
       edge[color = black, arrowhead = vee, arrowsize = 1.25]
       
-      global -> read_files
-      read_files -> fileInput_C
-      fileInput_C -> {fileInput_D fileInput_E fileInput_F fileInput_G}
-      fileInput_D -> fileInput_I
-      fileInput_E -> fileInput_J
-      fileInput_F -> fileInput_G
-      fileInput_G -> fileInput_H
-      fileInput_H -> {fileInput_K fileInput_L fileInput_M fileInput_N}
+      read_files -> GilOG_proc_D  
+      GilOG_proc_D -> {GilOG_proc_E GilOG_disp_I}
+      GilOG_proc_E -> {GilOG_proc_F GilOG_disp_J} 
+      GilOG_proc_F -> GilOG_proc_G
+      GilOG_proc_G -> GilOG_proc_H
+      GilOG_proc_H -> {GilOG_proc_I GilOG_disp_K GilOG_disp_L GilOG_disp_M GilOG_disp_N}
+      GilOG_proc_I -> GilOG_disp_O
       }")
 ```
 
@@ -254,20 +269,20 @@ library(magrittr)
 OGP_function_table <-
   data.frame(
     "Function" = c(
-      "dataframe_preprocessing()",
       "summary_count_processing()",
       "gpo_processing()",
       "gene_length_size_calc()",
       "cor_processing()",
-      "cor_processing_top_5()"
+      "cor_processing_top_5()",
+      "gpo_output_processing()"
     ),
     "Function Purpose" = c(
-      "Drops NAs",
       "creates the a dataframe with the counts in various categories",
       "Create genes per organism count",
       "Calculates the gene length and size",
       "Performs correlation calculations",
-      "Performs correlation calculations to find the 5 strongest relationships"
+      "Performs correlation calculations to find the 5 strongest relationships",
+      "This function prepares output stats for the GPO stats tables by filtering the data by group ID"
     )
   )
 
@@ -277,7 +292,7 @@ kableExtra::kable_styling(OGP_html, "striped", position = "left", font_size = 10
 ```
 ## Testing the package
 
-As shown by the code below, a chained function using `purrr::map2` is created to loop through two file lists of example data to test the core functions  to be tested for reliable outputs. This function creates a series of reference files automatically
+As shown by the code below, a chained function using `purrr::map2` is created to loop through two file lists of example data to test the core functions to be tested for reliable outputs. This function creates a series of reference files automatically
 
 ```
 library(GilOG)

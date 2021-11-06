@@ -16,7 +16,12 @@ The package `GilOG` does a number of tasks:
 First, this package uses calculates gene length and size.
 
 Next, this package calculates correlation efficients and displays the
-data in a boxplot, scatterplot, and regression lines. .
+data in a boxplot, scatterplot, regression lines, correlation
+efficients, both overall and Top 5.
+
+It executes the processing using R Shiny’s reactivity functionality
+using HTML coding in `ui.R` and `global.R` to improve the appearance of
+the UI.
 
 ## Installation
 
@@ -62,6 +67,10 @@ organism <- read.csv(org_file_path, na.strings = "")
 # load genes data and convert empty strings to NA
 genes <- read.csv(gene_file_path, na.strings = "")
 ```
+
+The `GilOG` package loads two files `organism` and `genes` and validates
+them for number of columns and column headings. Examples can be found in
+the `inst/extdata` folder.
 
 First, we will prepare the summary data count:
 
@@ -190,7 +199,7 @@ Next, we will calculate and display the scatterplot
 
 <img src="man/figures/README-scatterplot-1.png" width="100%" />
 
-Finally, we will calculate and display the Regression Curves
+Next, we will calculate and display the Regression Curves
 
 ``` r
 p <- ggplot2::ggplot(gpo_length_size_top_5, aes(x=gene_size, y=gene_length, color=organism)) +
@@ -208,6 +217,29 @@ p <- ggplot2::ggplot(gpo_length_size_top_5, aes(x=gene_size, y=gene_length, colo
 ```
 
 <img src="man/figures/README-regression-1.png" width="100%" />
+
+Finally, tables of gene statistics per organism are displayed for the
+top 5 correlation coefficients.
+
+``` r
+# calculate correlation coefficients top 5 - 1st place
+group_id <- as.double(1)
+top_5_coef_display_1st_place <- GilOG::gpo_output_processing(gpo_length_size_top_5, group_id)
+head(top_5_coef_display_1st_place)
+#> # A tibble: 6 x 8
+#> # Groups:   organism [1]
+#>   organism   protein_id protein_descripti~ gene_name location_start location_end
+#>   <chr>      <chr>      <chr>              <chr>              <int>        <int>
+#> 1 Enterococ~ NBK08646.1 peptide chain rel~ prfB               44535        44606
+#> 2 Enterococ~ NBK08628.1 DNA-directed RNA ~ <NA>               24585        24761
+#> 3 Enterococ~ NBK08691.1 30S ribosomal pro~ <NA>               90019        90195
+#> 4 Enterococ~ NBK08604.1 cold-shock protein <NA>                3206         3406
+#> 5 Enterococ~ NBK08716.1 hypothetical prot~ <NA>              118505       118710
+#> 6 Enterococ~ NBK08607.1 DUF1447 family pr~ <NA>                5952         6164
+#> # ... with 2 more variables: gene_length <int>, gene_size <dbl>
+```
+
+![](man/figures/gene-stats-1st-place.png)
 
 ## Organisgenes flowchart
 
@@ -321,22 +353,6 @@ Function.Purpose
 
 <td style="text-align:left;">
 
-dataframe\_preprocessing()
-
-</td>
-
-<td style="text-align:left;">
-
-Drops NAs
-
-</td>
-
-</tr>
-
-<tr>
-
-<td style="text-align:left;">
-
 summary\_count\_processing()
 
 </td>
@@ -408,6 +424,23 @@ cor\_processing\_top\_5()
 <td style="text-align:left;">
 
 Performs correlation calculations to find the 5 strongest relationships
+
+</td>
+
+</tr>
+
+<tr>
+
+<td style="text-align:left;">
+
+gpo\_output\_processing()
+
+</td>
+
+<td style="text-align:left;">
+
+This function prepares output stats for the GPO stats tables by
+filtering the data by group ID
 
 </td>
 
