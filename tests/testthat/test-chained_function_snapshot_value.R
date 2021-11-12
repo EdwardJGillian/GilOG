@@ -20,11 +20,11 @@ test_chained_functions <- function(csv_file1, csv_file2) {
     csv_path1 <-
       paste0(home, "/data/csv_examples/", csv_file1)
     csv <- stringr::str_remove(csv_file1, ".csv")
-    df1 <- read.csv(file=csv_path1, na.strings = "")
+    df1 <- as.data.frame(read.csv(file=csv_path1, na.strings = ""))
 
     csv_path2 <-
       paste0(home, "/data/csv_examples/", csv_file2)
-    df2 <- read.csv(file=csv_path2, na.strings = "")
+    df2 <- as.data.frame(read.csv(file=csv_path2, na.strings = ""))
 
     organism <- df1
 
@@ -53,8 +53,11 @@ test_chained_functions <- function(csv_file1, csv_file2) {
 
     co_ef_df <- GilOG::cor_processing(gpo_length_size)
 
+    # round r values in co_ef_df for snapshot testing
+    co_ef_df <- co_ef_df %>% dplyr::mutate(across(where(is.numeric), round, 5))
+
     testthat::expect_snapshot_value(
-      co_ef_df, style = "json2")
+     co_ef_df, style = "json2")
 
     gpo_length_size_top_5 <- GilOG::cor_processing_top_5(gpo_length_size)
 
