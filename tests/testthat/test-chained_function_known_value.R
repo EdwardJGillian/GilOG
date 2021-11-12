@@ -19,11 +19,11 @@ test_chained_functions <- function(csv_file1, csv_file2) {
       csv_path1 <-
          paste0(home, "/data/csv_examples/", csv_file1)
       csv <- stringr::str_remove(csv_file1, ".csv")
-      df1 <- read.csv(file=csv_path1, na.strings = "")
+      df1 <- as.data.frame(read.csv(file=csv_path1, na.strings = ""))
 
       csv_path2 <-
          paste0(home, "/data/csv_examples/", csv_file2)
-      df2 <- read.csv(file=csv_path2, na.strings = "")
+      df2 <- as.data.frame(read.csv(file=csv_path2, na.strings = ""))
 
       organism <- df1
 
