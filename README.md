@@ -504,6 +504,11 @@ series of reference files automatically
           testthat::expect_known_value(
              summary_count_df, tname("summary_count_df"))
     
+          gpo_count_df <- GilOG::gpo_processing(organism, genes)
+    
+          testthat::expect_known_value(
+             gpo_count_df, tname("gpo_count_df"))
+    
           gpo_length_size <- GilOG::gene_length_size_calc(organism, genes)
     
           testthat::expect_known_value(
@@ -629,13 +634,13 @@ Skipped
 
 <td style="text-align:right;">
 
-11
+12
 
 </td>
 
 <td style="text-align:right;">
 
-22
+24
 
 </td>
 

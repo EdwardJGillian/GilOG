@@ -48,6 +48,11 @@ test_chained_functions <- function(csv_file1, csv_file2) {
       testthat::expect_known_value(
          summary_count_df, tname("summary_count_df"))
 
+      gpo_count_df <- GilOG::gpo_processing(organism, genes)
+
+      testthat::expect_known_value(
+         gpo_count_df, tname("gpo_count_df"))
+
       gpo_length_size <- GilOG::gene_length_size_calc(organism, genes)
 
 
