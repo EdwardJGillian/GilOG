@@ -7,7 +7,7 @@ test_chained_functions <- function(csv_file1, csv_file2) {
     # naming helper
     tname <- function(n) {
       paste0(home,
-             "/data/known_value/",
+             "/data/known_output/",
              csv,
              ".",
              n,
