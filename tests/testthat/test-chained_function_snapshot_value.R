@@ -4,16 +4,6 @@ library(testthat)
 test_chained_functions <- function(csv_file1, csv_file2) {
   testthat::local_edition(3)
   test_that("check file values for parameters", {
-    # naming helper
-    tname <- function(n) {
-      paste0(home,
-             "/data/known_output/",
-             csv,
-             ".",
-             n,
-             ".test"
-      )
-    }
 
     # create file path to csv file examples
 
