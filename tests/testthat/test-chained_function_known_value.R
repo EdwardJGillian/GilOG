@@ -17,12 +17,12 @@ test_chained_functions <- function(csv_file1, csv_file2) {
       # create file path to csv file examples
 
       csv_path1 <-
-         paste0(home, "/data/csv_examples/", csv_file1)
+         paste0(home, "/data/known_csv_input/", csv_file1)
       csv <- stringr::str_remove(csv_file1, ".csv")
       df1 <- as.data.frame(read.csv(file=csv_path1, na.strings = ""))
 
       csv_path2 <-
-         paste0(home, "/data/csv_examples/", csv_file2)
+         paste0(home, "/data/known_csv_input/", csv_file2)
       df2 <- as.data.frame(read.csv(file=csv_path2, na.strings = ""))
 
       organism <- df1
@@ -108,7 +108,7 @@ home <- setwd(Sys.getenv("HOME"))
 
 
 csv_file_path <- file.path(getwd())
-csv_file_path <- file.path(home, "data/csv_examples")
+csv_file_path <- file.path(home, "data/known_csv_input")
 
 # create organism as test1.csv and genes as test2
 csv_files_list1 <- list.files(path = csv_file_path, pattern = "organisms*", full.names = FALSE)

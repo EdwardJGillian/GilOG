@@ -455,7 +455,9 @@ filtering the data by group ID
 As shown by the code below, a chained function using `purrr::map2` is
 created to loop through two file lists of example data to test the core
 functions to be tested for reliable outputs. This function creates a
-series of reference files automatically
+series of reference files automatically.
+
+This function uses `expect_known_value` from `testthat` edition `2`.
 
     library(GilOG)
     library(testthat)
@@ -476,12 +478,12 @@ series of reference files automatically
           # create file path to csv file examples
     
           csv_path1 <-
-             paste0(home, "/data/csv_examples/", csv_file1)
+             paste0(home, "/data/known_csv_input/", csv_file1)
           csv <- stringr::str_remove(csv_file1, ".csv")
           df1 <- read.csv(file=csv_path1, na.strings = "")
     
           csv_path2 <-
-             paste0(home, "/data/csv_examples/", csv_file2)
+             paste0(home, "/data/known_csv_input/", csv_file2)
           df2 <- read.csv(file=csv_path2, na.strings = "")
     
           organism <- GilOG::dataframe_preprocessing(df1)
@@ -531,7 +533,7 @@ series of reference files automatically
     
     
     csv_file_path <- file.path(getwd())
-    csv_file_path <- file.path(home, "data/csv_examples")
+    csv_file_path <- file.path(home, "data/known_csv_input")
     
     # create organism as test1.csv and genes as test2
     csv_files_list1 <- list.files(path = csv_file_path, pattern = "organisms*", full.names = FALSE)
@@ -541,7 +543,7 @@ series of reference files automatically
     # apply 2 list vector to function +
     purrr::map2(csv_files_list1, csv_files_list2, test_chained_functions)
 
-### Testthat results:
+### Testthat `expect_known_value` results:
 
 ``` r
 library(testthat)
@@ -560,9 +562,9 @@ library(testthat)
 library(dplyr)
 library(magrittr)
 library(GilOG)
-test_results_raw <- testthat::test_file("tests/testthat/test-chained_function_known_value.R", reporter = testthat::ListReporter)
+test_results_raw1 <- testthat::test_file("tests/testthat/test-chained_function_known_value.R", reporter = testthat::ListReporter)
 
-test_results_individual <- test_results_raw %>%
+test_results_individual1 <- test_results_raw1 %>%
   as_tibble() %>%
   dplyr::rename(Test = test) %>%
   dplyr::group_by(file, context, Test) %>%
@@ -578,7 +580,7 @@ summarise_results <- function(res) {
   res %>% dplyr::summarise_if(is.numeric, sum) %>% knitr::kable()
   }
 
-summarise_results(test_results_individual)
+summarise_results(test_results_individual1)
 ```
 
 <table>
@@ -640,6 +642,237 @@ Skipped
 <td style="text-align:right;">
 
 22
+
+</td>
+
+<td style="text-align:right;">
+
+0
+
+</td>
+
+<td style="text-align:right;">
+
+0
+
+</td>
+
+<td style="text-align:right;">
+
+0
+
+</td>
+
+<td style="text-align:right;">
+
+0
+
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+As shown by the code below, a chained function using `purrr::map2` is
+created to loop through two file lists of example data to test the core
+functions to be tested for reliable outputs. This function creates a
+series of snapshot reference files automatically.
+
+This function uses `expect_snapshot_value` from `testthat` edition `3`.
+
+    library(GilOG)
+    library(testthat)
+    
+    test_chained_functions <- function(csv_file1, csv_file2) {
+      testthat::local_edition(3)
+      test_that("check file values for parameters", {
+    
+        # create file path to csv file examples
+    
+        csv_path1 <-
+          paste0(home, "/data/snapshot_csv_input/", csv_file1)
+        csv <- stringr::str_remove(csv_file1, ".csv")
+        df1 <- as.data.frame(read.csv(file=csv_path1, na.strings = ""))
+    
+        csv_path2 <-
+          paste0(home, "/data/snapshot_csv_input/", csv_file2)
+        df2 <- as.data.frame(read.csv(file=csv_path2, na.strings = ""))
+    
+        organism <- df1
+    
+    
+        testthat::expect_snapshot_value(
+          organism, style = "json2")
+    
+        genes <- df2
+    
+    
+        testthat::expect_snapshot_value(
+          genes, style = "json2")
+    
+        # dplyr needs to be run inside testthat for function to work
+        # generates a warning
+        suppressWarnings(library(dplyr))
+        summary_count_df <- GilOG::summary_count_processing(organism, genes)
+    
+        testthat::expect_snapshot_value(
+          summary_count_df, style = "json2")
+    
+        gpo_length_size <- GilOG::gene_length_size_calc(organism, genes)
+    
+        testthat::expect_snapshot_value(
+          gpo_length_size, style = "json2")
+    
+        co_ef_df <- GilOG::cor_processing(gpo_length_size)
+    
+        # round r values in co_ef_df for snapshot testing
+        co_ef_df <- co_ef_df %>% dplyr::mutate(across(where(is.numeric), round, 5))
+    
+        testthat::expect_snapshot_value(
+         co_ef_df, style = "json2")
+    
+        gpo_length_size_top_5 <- GilOG::cor_processing_top_5(gpo_length_size)
+    
+        testthat::expect_snapshot_value(
+          gpo_length_size_top_5, style = "json2")
+    
+        group_id <- as.double(1)
+        gpo_1 <- GilOG::gpo_output_processing(gpo_length_size_top_5, group_id)
+    
+        testthat::expect_snapshot_value(
+          gpo_1, style = "json2")
+    
+        group_id <- as.double(2)
+        gpo_2 <- GilOG::gpo_output_processing(gpo_length_size_top_5, group_id)
+    
+        testthat::expect_snapshot_value(
+          gpo_2, style = "json2")
+    
+        group_id <- as.double(3)
+        gpo_3 <- GilOG::gpo_output_processing(gpo_length_size_top_5, group_id)
+    
+        testthat::expect_snapshot_value(
+          gpo_3, style = "json2")
+    
+        group_id <- as.double(4)
+        gpo_4 <- GilOG::gpo_output_processing(gpo_length_size_top_5, group_id)
+    
+        testthat::expect_snapshot_value(
+          gpo_4, style = "json2")
+    
+        group_id <- as.double(5)
+        gpo_5 <- GilOG::gpo_output_processing(gpo_length_size_top_5, group_id)
+    
+        testthat::expect_snapshot_value(
+          gpo_5, style = "json2")
+    
+      })
+    }
+    
+    # create the ALS file path
+    home <- setwd(Sys.getenv("HOME"))
+    
+    
+    csv_file_path <- file.path(getwd())
+    csv_file_path <- file.path(home, "data/snapshot_csv_input")
+    
+    # create organism as test1.csv and genes as test2
+    csv_files_list1 <- list.files(path = csv_file_path, pattern = "organisms*", full.names = FALSE)
+    csv_files_list2 <- list.files(path = csv_file_path, pattern = "genes*", full.names = FALSE)
+    
+    # apply 1 list vector to the function
+    # apply 2 list vector to function +
+    purrr::map2(csv_files_list1, csv_files_list2, test_chained_functions)
+
+    ### Testthat `expect_snapshot_value` results:
+    
+    
+    ```r
+    library(testthat)
+    library(dplyr)
+    library(magrittr)
+    library(GilOG)
+    test_results_raw2 <- testthat::test_file("tests/testthat/test-chained_function_snapshot_value.R", reporter = testthat::ListReporter)
+    
+    test_results_individual2 <- test_results_raw2 %>%
+      as_tibble() %>%
+      dplyr::rename(Test = test) %>%
+      dplyr::group_by(file, context, Test) %>%
+      dplyr::summarise(NumTests = first(nb),
+                Passed   = sum(passed),
+                Failed   = sum(failed),
+                Warnings = sum(warning),
+                Errors   = sum(as.numeric(error)),
+                Skipped  = sum(as.numeric(skipped)),
+                .groups = "drop")
+    
+    summarise_results <- function(res) {
+      res %>% dplyr::summarise_if(is.numeric, sum) %>% knitr::kable()
+      }
+    
+    summarise_results(test_results_individual2)
+
+<table>
+
+<thead>
+
+<tr>
+
+<th style="text-align:right;">
+
+NumTests
+
+</th>
+
+<th style="text-align:right;">
+
+Passed
+
+</th>
+
+<th style="text-align:right;">
+
+Failed
+
+</th>
+
+<th style="text-align:right;">
+
+Warnings
+
+</th>
+
+<th style="text-align:right;">
+
+Errors
+
+</th>
+
+<th style="text-align:right;">
+
+Skipped
+
+</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td style="text-align:right;">
+
+11
+
+</td>
+
+<td style="text-align:right;">
+
+11
 
 </td>
 
