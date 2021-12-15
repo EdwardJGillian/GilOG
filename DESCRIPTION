@@ -1,5 +1,4 @@
 Package: GilOG
-Type: Package
 Title: This package shows how to deal with file input in R Shiny
 Version: 1.0.0
 Authors@R: 
@@ -8,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "edwardjgillian@gmail.com",
            comment = c(ORCID = 0000-0003-2732-5107))
-Description: This package shows how to deal with file input in R Shiny
+Description: This package shows how to deal with file input in R Shiny.
 Depends: R (>= 3.5.0)
 License: GPL-3
 Encoding: UTF-8
