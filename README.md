@@ -473,7 +473,7 @@ This function uses `expect_known_value` from `testthat` edition `2`.
                     csv,
                     ".",
                     n,
-                    ".test"
+                    ".rds"
              )
           }
     
@@ -487,7 +487,7 @@ This function uses `expect_known_value` from `testthat` edition `2`.
           csv_path2 <-
              paste0(home, "/data/known_csv_input/", csv_file2)
           df2 <- read.csv(file=csv_path2, na.strings = "")
-
+    
     
           organism <- GilOG::dataframe_preprocessing(df1)
     
@@ -544,6 +544,13 @@ This function uses `expect_known_value` from `testthat` edition `2`.
     # apply 1 list vector to the function
     # apply 2 list vector to function +
     purrr::map2(csv_files_list1, csv_files_list2, test_chained_functions)
+
+This test saves the expected reference data as `rds` files so that the
+user can save the observed output as `rds` files and then inspect each
+file for differences. The following shows an example from 1 expected
+output `rds` file:
+
+![](man/figures/organism-summary-count-df.png)
 
 ### Testthat `expect_known_value` results:
 

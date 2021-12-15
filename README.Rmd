@@ -294,7 +294,7 @@ kableExtra::kable_styling(OGP_html, "striped", position = "left", font_size = 10
 
 As shown by the code below, a chained function using `purrr::map2` is created to loop through two file lists of example data to test the core functions to be tested for reliable outputs. This function creates a series of reference files automatically. 
 
-This function uses `expect_known_value` from `testthat` edition `2`.
+This function uses `expect_known_value` from `testthat` edition `2`. 
 
 ```
 library(GilOG)
@@ -311,7 +311,7 @@ test_chained_functions <- function(csv_file1, csv_file2) {
                 csv,
                 ".",
                 n,
-                ".test"
+                ".rds"
          )
       }
 
@@ -383,6 +383,11 @@ csv_files_list2 <- list.files(path = csv_file_path, pattern = "genes*", full.nam
 # apply 2 list vector to function +
 purrr::map2(csv_files_list1, csv_files_list2, test_chained_functions)
 ```
+This test saves the expected reference data as `rds` files
+ so that the user can save the observed output as `rds` files and then inspect each file for differences. The following shows an example from 1 expected output `rds` file:
+
+![](man/figures/organism-summary-count-df.png){width=100%} 
+ 
 ### Testthat `expect_known_value` results:
 
 ```{r tests1}

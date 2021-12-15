@@ -12,7 +12,7 @@ test_chained_functions <- function(csv_file1, csv_file2) {
                 csv,
                 ".",
                 n,
-                ".test"
+                ".rds"
          )
       }
 
