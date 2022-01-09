@@ -94,40 +94,95 @@ ui <- fluidPage(title = "Organisms / Genes",
                                                     column(2),
                                                     column(8, DT::dataTableOutput('gpo_stats_1')),
                                                     column(2),
+                                                    # change colour of the button when clicking to red
+                                                    tags$style(type = "text/css",
+                                                               "#download_data_1, #download_data_1:active  {
+                                                                background-color:rgba(255, 0, 0, 0.3);
+                                                                color: white;
+                                                                font-family: Arial;
+                                                                border-color: #ddd;
+                                                                -webkit-box-shadow: 0px;
+                                                                box-shadow: 0px;
+                                                                }
+                                                    "),
                                                     # Download button
-                                                    downloadButton("download_data_1", "Download 1st place data"),
+                                                    downloadButton("download_data_1", "Download 1st place data", class = "butt"),
                                                     column(2)
                                            ),
                                            tabPanel("Gene Statistics per organism - 2nd place", icon = icon("table"),
                                                     column(2),
                                                     column(8, DT::dataTableOutput('gpo_stats_2')),
                                                     column(2),
+                                                    # change colour of the button when clicking to blue
+                                                    tags$style(type = "text/css",
+                                                               "#download_data_2, #download_data_2:active  {
+                                                                background-color:rgba(0, 0, 255, 0.3);
+                                                                color: white;
+                                                                font-family: Arial;
+                                                                border-color: #ddd;
+                                                                -webkit-box-shadow: 0px;
+                                                                box-shadow: 0px;
+                                                                }
+                                                    "),
                                                     # Download button
-                                                    downloadButton("download_data_2", "Download 2nd place data"),
+                                                    downloadButton("download_data_2", "Download 2nd place data", class = "butt"),
                                                     column(2)
                                            ),
                                            tabPanel("Gene Statistics per organism - 3rd place", icon = icon("table"),
                                                     column(2),
                                                     column(8, DT::dataTableOutput('gpo_stats_3')),
                                                     column(2),
+                                                    # change colour of the button when clicking to green
+                                                    tags$style(type = "text/css",
+                                                               "#download_data_3, #download_data_3:active  {
+                                                                background-color:rgba(0, 255, 0, 0.3);
+                                                                color: white;
+                                                                font-family: Arial;
+                                                                border-color: #ddd;
+                                                                -webkit-box-shadow: 0px;
+                                                                box-shadow: 0px;
+                                                                }
+                                                    "),
                                                     # Download button
-                                                    downloadButton("download_data_3", "Download 3rd place data"),
+                                                    downloadButton("download_data_3", "Download 3rd place data", class = "butt"),
                                                     column(2)
                                            ),
                                            tabPanel("Gene Statistics per organism - 4th place", icon = icon("table"),
                                                     column(2),
                                                     column(8, DT::dataTableOutput('gpo_stats_4')),
                                                     column(2),
+                                                    # change colour of the button when clicking to yellow
+                                                    tags$style(type = "text/css",
+                                                               "#download_data_4, #download_data_4:active  {
+                                                                background-color:rgba(255, 255, 0, 0.3);
+                                                                color: white;
+                                                                font-family: Arial;
+                                                                border-color: #ddd;
+                                                                -webkit-box-shadow: 0px;
+                                                                box-shadow: 0px;
+                                                                }
+                                                    "),
                                                     # Download button
-                                                    downloadButton("download_data_4", "Download 4th place data"),
+                                                    downloadButton("download_data_4", "Download 4th place data", class = "butt"),
                                                     column(2)
                                            ),
                                            tabPanel("Gene Statistics per organism - 5th place", icon = icon("table"),
                                                     column(2),
                                                     column(8, DT::dataTableOutput('gpo_stats_5')),
                                                     column(2),
+                                                    # change colour of the button when clicking to cerise
+                                                    tags$style(type = "text/css",
+                                                               "#download_data_5, #download_data_5:active  {
+                                                                background-color:rgba(255, 0, 255, 0.3);
+                                                                color: white;
+                                                                font-family: Arial;
+                                                                border-color: #ddd;
+                                                                -webkit-box-shadow: 0px;
+                                                                box-shadow: 0px;
+                                                                }
+                                                    "),
                                                     # Download button
-                                                    downloadButton("download_data_5", "Download 5th place data"),
+                                                    downloadButton("download_data_5", "Download 5th place data", class = "butt"),
                                                     column(2)
                                            )
                                )
