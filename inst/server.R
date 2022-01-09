@@ -279,6 +279,17 @@ server <- function(input, output, sessions) {
     reactive(gpo_1_df())
   )
 
+  # Downloadable csv of selected dataset ----
+  output$download_data_1 <- downloadHandler(
+    filename = function() {
+      paste("dataset-", Sys.Date(), ".csv", sep = "")
+    },
+    content = function(file) {
+      write.csv(gpo_1_df(), file)
+    }
+  )
+
+
   # prepare output stats for 2nd table
   gpo_2_df <- reactive({
     req(gpo_ls_top_5_df)

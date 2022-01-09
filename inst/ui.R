@@ -93,6 +93,9 @@ ui <- fluidPage(title = "Organisms / Genes",
                                            tabPanel("Genes Statistics per organism - 1st place", icon = icon("table"),
                                                     column(2),
                                                     column(8, DT::dataTableOutput('gpo_stats_1')),
+                                                    br(),
+                                                    # Button
+                                                    downloadButton("download_data_1", "Download 1st place data"),
                                                     column(2)
                                            ),
                                            tabPanel("Gene Statistics per organism - 2nd place", icon = icon("table"),
