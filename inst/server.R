@@ -279,6 +279,17 @@ server <- function(input, output, sessions) {
     reactive(gpo_1_df())
   )
 
+  # Downloadable csv of selected dataset ----
+  output$download_data_1 <- downloadHandler(
+    filename = function() {
+      paste("dataset-1st-place-", Sys.Date(), ".csv", sep = "")
+    },
+    content = function(file) {
+      write.csv(gpo_1_df(), file)
+    }
+  )
+
+
   # prepare output stats for 2nd table
   gpo_2_df <- reactive({
     req(gpo_ls_top_5_df)
@@ -291,6 +302,16 @@ server <- function(input, output, sessions) {
 
   output$gpo_stats_2 <- render_DT_data_table(
     reactive(gpo_2_df())
+  )
+
+  # Downloadable csv of selected dataset ----
+  output$download_data_2 <- downloadHandler(
+    filename = function() {
+      paste("dataset-2nd-place-", Sys.Date(), ".csv", sep = "")
+    },
+    content = function(file) {
+      write.csv(gpo_2_df(), file)
+    }
   )
 
   # prepare output stats for 3rd table
@@ -307,6 +328,16 @@ server <- function(input, output, sessions) {
     reactive(gpo_3_df())
   )
 
+  # Downloadable csv of selected dataset ----
+  output$download_data_3 <- downloadHandler(
+    filename = function() {
+      paste("dataset-3rd-place-", Sys.Date(), ".csv", sep = "")
+    },
+    content = function(file) {
+      write.csv(gpo_3_df(), file)
+    }
+  )
+
   # prepare output stats for 4th table
   gpo_4_df <- reactive({
     req(gpo_ls_top_5_df)
@@ -321,6 +352,16 @@ server <- function(input, output, sessions) {
     reactive(gpo_4_df())
   )
 
+  # Downloadable csv of selected dataset ----
+  output$download_data_4 <- downloadHandler(
+    filename = function() {
+      paste("dataset-4th-place-", Sys.Date(), ".csv", sep = "")
+    },
+    content = function(file) {
+      write.csv(gpo_4_df(), file)
+    }
+  )
+
   # prepare output stats for 5th table
   gpo_5_df <- reactive({
     req(gpo_ls_top_5_df)
@@ -333,6 +374,16 @@ server <- function(input, output, sessions) {
 
   output$gpo_stats_5 <- render_DT_data_table(
     reactive(gpo_5_df())
+  )
+
+  # Downloadable csv of selected dataset ----
+  output$download_data_5 <- downloadHandler(
+    filename = function() {
+      paste("dataset-5th-place-", Sys.Date(), ".csv", sep = "")
+    },
+    content = function(file) {
+      write.csv(gpo_5_df(), file)
+    }
   )
 }
 
