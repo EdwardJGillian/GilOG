@@ -93,29 +93,41 @@ ui <- fluidPage(title = "Organisms / Genes",
                                            tabPanel("Genes Statistics per organism - 1st place", icon = icon("table"),
                                                     column(2),
                                                     column(8, DT::dataTableOutput('gpo_stats_1')),
-                                                    br(),
-                                                    # Button
+                                                    column(2),
+                                                    # Download button
                                                     downloadButton("download_data_1", "Download 1st place data"),
                                                     column(2)
                                            ),
                                            tabPanel("Gene Statistics per organism - 2nd place", icon = icon("table"),
                                                     column(2),
                                                     column(8, DT::dataTableOutput('gpo_stats_2')),
+                                                    column(2),
+                                                    # Download button
+                                                    downloadButton("download_data_2", "Download 2nd place data"),
                                                     column(2)
                                            ),
                                            tabPanel("Gene Statistics per organism - 3rd place", icon = icon("table"),
                                                     column(2),
                                                     column(8, DT::dataTableOutput('gpo_stats_3')),
+                                                    column(2),
+                                                    # Download button
+                                                    downloadButton("download_data_3", "Download 3rd place data"),
                                                     column(2)
                                            ),
                                            tabPanel("Gene Statistics per organism - 4th place", icon = icon("table"),
                                                     column(2),
                                                     column(8, DT::dataTableOutput('gpo_stats_4')),
+                                                    column(2),
+                                                    # Download button
+                                                    downloadButton("download_data_4", "Download 4th place data"),
                                                     column(2)
                                            ),
                                            tabPanel("Gene Statistics per organism - 5th place", icon = icon("table"),
                                                     column(2),
                                                     column(8, DT::dataTableOutput('gpo_stats_5')),
+                                                    column(2),
+                                                    # Download button
+                                                    downloadButton("download_data_5", "Download 5th place data"),
                                                     column(2)
                                            )
                                )
