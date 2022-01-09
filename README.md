@@ -219,7 +219,9 @@ p <- ggplot2::ggplot(gpo_length_size_top_5, aes(x=gene_size, y=gene_length, colo
 <img src="man/figures/README-regression-1.png" width="100%" />
 
 Finally, tables of gene statistics per organism are displayed for the
-top 5 correlation coefficients.
+top 5 correlation coefficients and allows downloading of each table as a
+`csv` file. The download buttons have HTML tags to style them different
+colours when they are clicked.
 
 ``` r
 # calculate correlation coefficients top 5 - 1st place
